@@ -5,8 +5,64 @@ class D_VecDialog {
 	onUnLoad = "uiNamespace setVariable ['D_VecDialog', nil];d_vec_dialog_open = false";
 	effectTilesAlpha = 0.15;
 	class controlsBackground {
-		COMMON_BACKGROUND_VIGNETTE
-		COMMON_BACKGROUND_TILES
+		class Vignette: RscVignette {
+			idc = 114998;
+		};
+		class TileGroup: RscControlsGroupNoScrollbars {
+	  idc = 115099;
+	  x = safezoneX;
+	  y = safezoneY;
+	  w = safezoneW;
+	  h = safezoneH;
+	  disableCustomColors = 1;
+	  class Controls {
+		    class TileFrame: RscFrame
+		    {
+		      idc = 114999;
+		      x = 0;
+		      y = 0;
+		      w = safezoneW;
+		      h = safezoneH;
+		      colortext[] = {0,0,0,1};
+		    };
+		    BCGTILE(0,0)
+		    BCGTILE(0,1)
+		    BCGTILE(0,2)
+		    BCGTILE(0,3)
+		    BCGTILE(0,4)
+		    BCGTILE(0,5)
+		    BCGTILE(1,0)
+		    BCGTILE(1,1)
+		    BCGTILE(1,2)
+		    BCGTILE(1,3)
+		    BCGTILE(1,4)
+		    BCGTILE(1,5)
+		    BCGTILE(2,0)
+		    BCGTILE(2,1)
+		    BCGTILE(2,2)
+		    BCGTILE(2,3)
+		    BCGTILE(2,4)
+		    BCGTILE(2,5)
+		    BCGTILE(3,0)
+		    BCGTILE(3,1)
+		    BCGTILE(3,2)
+		    BCGTILE(3,3)
+		    BCGTILE(3,4)
+		    BCGTILE(3,5)
+		    BCGTILE(4,0)
+		    BCGTILE(4,1)
+		    BCGTILE(4,2)
+		    BCGTILE(4,3)
+		    BCGTILE(4,4)
+		    BCGTILE(4,5)
+		    BCGTILE(5,0)
+		    BCGTILE(5,1)
+		    BCGTILE(5,2)
+		    BCGTILE(5,3)
+		    BCGTILE(5,4)
+		    BCGTILE(5,5)
+		  };
+		};
 		__DDIALOG_BG($STR_DOM_MISSIONSTRING_1322)
 	};
 	class controls {
@@ -46,7 +102,7 @@ class D_VecDialog {
 			idc = 44448;
 			style = 0;
 			colorBackgroundActive[] = {1,1,1,0.1};
-			text = "$STR_DOM_MISSIONSTRING_1324"; 
+			text = "$STR_DOM_MISSIONSTRING_1324";
 			action = "closeDialog 0;[vehicle player, player] call d_fnc_dropammoboxdx";
 			x = 0.20;
 			y = 0.47;
@@ -54,7 +110,7 @@ class D_VecDialog {
 		};
 		class LoadAmmoButton: DropAmmoButton {
 			idc = 44452;
-			text = "$STR_DOM_MISSIONSTRING_1325"; 
+			text = "$STR_DOM_MISSIONSTRING_1325";
 			action = "closeDialog 0;[vehicle player, player] call d_fnc_loaddroppedx";
 			y = 0.53;
 		};
@@ -78,33 +134,33 @@ class D_VecDialog {
 		class CreateVecButton: DropAmmoButton {
 			idc = 44451;
 			style = 2;
-			text = "$STR_DOM_MISSIONSTRING_1326"; 
+			text = "$STR_DOM_MISSIONSTRING_1326";
 			action = "call d_fnc_create_vecx";
 			x = 0.52;
 			y = 0.59;
 		};
 		class TeleportButton: DropAmmoButton {
 			idc = 44453;
-			text = "$STR_DOM_MISSIONSTRING_1250"; 
+			text = "$STR_DOM_MISSIONSTRING_1250";
 			action = "closeDialog 0;call d_fnc_teleportx";
 			y = 0.59;
 		};
 		class SATViewButton: DropAmmoButton {
 			idc = 44459;
-			text = "$STR_DOM_MISSIONSTRING_1327"; 
+			text = "$STR_DOM_MISSIONSTRING_1327";
 			action = "closeDialog 0;createDialog 'D_FakeUAVDialog'";
 			y = 0.65;
 		};
 		class UAVButton: DropAmmoButton {
 			idc = 44460;
-			text = "$STR_DOM_MISSIONSTRING_1327a"; 
+			text = "$STR_DOM_MISSIONSTRING_1327a";
 			action = "closeDialog 0;call d_fnc_makeuav";
 			y = 0.71;
 		};
 		class DeployMHQ: DropAmmoButton {
 			idc = 44462;
 			style = 2;
-			text = "$STR_DOM_MISSIONSTRING_1328"; 
+			text = "$STR_DOM_MISSIONSTRING_1328";
 			action = "closeDialog 0;call d_fnc_deploy_mhq";
 			x = 0.37;
 			y = 0.8;

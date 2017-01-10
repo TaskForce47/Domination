@@ -5,10 +5,66 @@ class D_SettingsDialog {
 	onUnLoad = "uiNamespace setVariable ['D_SettingsDialog', nil];d_settings_dialog_open = false";
 	effectTilesAlpha = 0.15;
 	class controlsBackground {
-		COMMON_BACKGROUND_VIGNETTE
-		COMMON_BACKGROUND_TILES
+		class Vignette: RscVignette {
+			idc = 114998;
+		};
+		class TileGroup: RscControlsGroupNoScrollbars {
+	  idc = 115099;
+	  x = safezoneX;
+	  y = safezoneY;
+	  w = safezoneW;
+	  h = safezoneH;
+	  disableCustomColors = 1;
+	  class Controls {
+		    class TileFrame: RscFrame
+		    {
+		      idc = 114999;
+		      x = 0;
+		      y = 0;
+		      w = safezoneW;
+		      h = safezoneH;
+		      colortext[] = {0,0,0,1};
+		    };
+		    BCGTILE(0,0)
+		    BCGTILE(0,1)
+		    BCGTILE(0,2)
+		    BCGTILE(0,3)
+		    BCGTILE(0,4)
+		    BCGTILE(0,5)
+		    BCGTILE(1,0)
+		    BCGTILE(1,1)
+		    BCGTILE(1,2)
+		    BCGTILE(1,3)
+		    BCGTILE(1,4)
+		    BCGTILE(1,5)
+		    BCGTILE(2,0)
+		    BCGTILE(2,1)
+		    BCGTILE(2,2)
+		    BCGTILE(2,3)
+		    BCGTILE(2,4)
+		    BCGTILE(2,5)
+		    BCGTILE(3,0)
+		    BCGTILE(3,1)
+		    BCGTILE(3,2)
+		    BCGTILE(3,3)
+		    BCGTILE(3,4)
+		    BCGTILE(3,5)
+		    BCGTILE(4,0)
+		    BCGTILE(4,1)
+		    BCGTILE(4,2)
+		    BCGTILE(4,3)
+		    BCGTILE(4,4)
+		    BCGTILE(4,5)
+		    BCGTILE(5,0)
+		    BCGTILE(5,1)
+		    BCGTILE(5,2)
+		    BCGTILE(5,3)
+		    BCGTILE(5,4)
+		    BCGTILE(5,5)
+		  };
+		};
 		__DDIALOG_BG($STR_DOM_MISSIONSTRING_1293)
-	};	
+	};
 	class controls {
 		class ViewDistanceCaption: RscText2 {
 			idc = 1999;
@@ -70,7 +126,7 @@ class D_SettingsDialog {
 		class PlayermarkerCombo: GraslayerCombo {
 			idc = 1002;
 			y = 0.39;
-			onLBSelChanged = "[_this] call d_fnc_pmselchanged"; 
+			onLBSelChanged = "[_this] call d_fnc_pmselchanged";
 		};
 		class PlayernamesCaption: ViewDistanceCaption {
 			idc = 1601;
@@ -85,7 +141,7 @@ class D_SettingsDialog {
 		class PlayernamesCombo: PlayermarkerCombo {
 			idc = 1602;
 			y = 0.52;
-			onLBSelChanged = "[_this] call d_fnc_pnselchanged"; 
+			onLBSelChanged = "[_this] call d_fnc_pnselchanged";
 		};
 		__CANCELCLOSEB(-1)
 		class PointsCaption: RscText2 {
@@ -108,7 +164,7 @@ class D_SettingsDialog {
 			y = __EVAL(ypospic);
 			w=0.02;
 			h=0.025;
-			text = __EVAL(getText(configfile>>"CfgRanks">>"1">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\corporal_gs.paa";
 			sizeEx = 256;
 			colorText[] = {1, 1, 1, 1};
 		};
@@ -121,7 +177,7 @@ class D_SettingsDialog {
 			sizeEx = 0.025;
 			colorBackground[] = {1, 1, 1, 0};
 			colorText[] = {1, 1, 1, 1};
-			text = __EVAL(getText(configfile>>"CfgRanks">>"1">>"displayName"));
+			text = "Corporal";
 		};
 		class CorporalPoints: RscText2 {
 			idc = 2001;
@@ -137,12 +193,12 @@ class D_SettingsDialog {
 		class SergeantPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"2">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
 		};
 		class SergeantString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"2">>"displayName"));
+			text = "Sergeant";
 		};
 		class SergeantPoints: CorporalPoints {
 			idc = 2002;
@@ -152,12 +208,12 @@ class D_SettingsDialog {
 		class LieutenantPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"3">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\lieutenant_gs.paa";
 		};
 		class LieutenantString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"3">>"displayName"));
+			text = "Lieutenant";
 		};
 		class LieutenantPoints: CorporalPoints {
 			idc = 2003;
@@ -167,12 +223,12 @@ class D_SettingsDialog {
 		class CaptainPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"4">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\captain_gs.paa";
 		};
 		class CaptainString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"4">>"displayName"));
+			text = "Captain";
 		};
 		class CaptainPoints: CorporalPoints {
 			idc = 2004;
@@ -182,12 +238,12 @@ class D_SettingsDialog {
 		class MajorPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"5">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\major_gs.paa";
 		};
 		class MajorString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"5">>"displayName"));
+			text = "Major";
 		};
 		class MajorPoints: CorporalPoints {
 			idc = 2005;
@@ -197,12 +253,12 @@ class D_SettingsDialog {
 		class ColonelPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"6">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\colonel_gs.paa";
 		};
 		class ColonelString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"6">>"displayName"));
+			text = "Colonel";
 		};
 		class ColonelPoints: CorporalPoints {
 			idc = 2006;
