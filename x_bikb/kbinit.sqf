@@ -64,7 +64,7 @@ if (isServer) then {
 	};
 };
 
-private _kbscript = "x_bikb\domkba3.bikb";
+private _kbscript = "x_bikb\domkba3.hpp";
 
 if (d_tt_ver || {d_own_side == "EAST"}) then {
 	d_hq_logic_opfor1 kbAddTopic["HQ_E",_kbscript];

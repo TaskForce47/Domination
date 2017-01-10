@@ -1,6 +1,6 @@
 class D_FakeUAVDialog {
 	idd = -1;
-	movingEnable = true;
+	movingEnable = 1;
 	onLoad = "uiNamespace setVariable ['D_FakeUAVDialog', param [0]]";
 	onUnLoad = "uiNamespace setVariable ['D_FakeUAVDialog', nil]";
 	effectTilesAlpha = 0.15;
@@ -79,7 +79,7 @@ class D_FakeUAVDialog {
 			colorBackground[] = {0.9, 0.9, 0.9, 0.9};
 			x = 0.02; y = 0.115;
 			w = 0.96; h = 0.8;
-			showCountourInterval = false;
+			showCountourInterval = 0;
 			onMouseButtonClick = "closedialog 0; _this call d_fnc_satellitedo";
 		};
 	};

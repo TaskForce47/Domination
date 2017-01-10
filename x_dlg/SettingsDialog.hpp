@@ -177,7 +177,7 @@ class D_SettingsDialog {
 			sizeEx = 0.025;
 			colorBackground[] = {1, 1, 1, 0};
 			colorText[] = {1, 1, 1, 1};
-			text = __EVAL(getText(configfile>>"CfgRanks">>"1">>"displayName"));
+			text = "Corporal";
 		};
 		class CorporalPoints: RscText2 {
 			idc = 2001;
@@ -193,12 +193,12 @@ class D_SettingsDialog {
 		class SergeantPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"2">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\sergeant_gs.paa";
 		};
 		class SergeantString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"2">>"displayName"));
+			text = "Sergeant";
 		};
 		class SergeantPoints: CorporalPoints {
 			idc = 2002;
@@ -208,12 +208,12 @@ class D_SettingsDialog {
 		class LieutenantPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"3">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\lieutenant_gs.paa";
 		};
 		class LieutenantString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"3">>"displayName"));
+			text = "Lieutenant";
 		};
 		class LieutenantPoints: CorporalPoints {
 			idc = 2003;
@@ -223,12 +223,12 @@ class D_SettingsDialog {
 		class CaptainPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"4">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\captain_gs.paa";
 		};
 		class CaptainString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"4">>"displayName"));
+			text = "Captain";
 		};
 		class CaptainPoints: CorporalPoints {
 			idc = 2004;
@@ -238,12 +238,12 @@ class D_SettingsDialog {
 		class MajorPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"5">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\major_gs.paa";
 		};
 		class MajorString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"5">>"displayName"));
+			text = "Major";
 		};
 		class MajorPoints: CorporalPoints {
 			idc = 2005;
@@ -253,12 +253,12 @@ class D_SettingsDialog {
 		class ColonelPic: CorporalPic {
 			__EXEC(ypospic = ypospic + 0.03)
 			y = __EVAL(ypospic);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"6">>"texture"));
+			text = "\A3\Ui_f\data\GUI\Cfg\Ranks\colonel_gs.paa";
 		};
 		class ColonelString: CorporalString {
 			__EXEC(yposstr = yposstr + 0.03)
 			y = __EVAL(yposstr);
-			text = __EVAL(getText(configfile>>"CfgRanks">>"6">>"displayName"));
+			text = "Colonel";
 		};
 		class ColonelPoints: CorporalPoints {
 			idc = 2006;

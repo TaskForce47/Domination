@@ -26,7 +26,7 @@ _unit setVariable ["d_hq_logic_side", _side];
 _unit setVariable ["d_kddata", _kdata];
 
 {
-	_unit kbAddTopic[_x,"x_bikb\domkba3.bikb"];
+	_unit kbAddTopic[_x,"x_bikb\domkba3.hpp"];
 	false
 } count (_kdata select 0);
 _unit setIdentity (_kdata select 1);

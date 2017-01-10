@@ -1,6 +1,6 @@
 class D_AIRecruitDialog {
 	idd = -1;
-	movingEnable = true;
+	movingEnable = 1;
 	onLoad = "uiNamespace setVariable ['D_AIRecruitDialog', param [0]];[param [0]] call bis_fnc_guiEffectTiles;call d_fnc_fillRecruit;d_airecruit_dialog_open = true";
 	onUnLoad = "uiNamespace setVariable ['D_AIRecruitDialog', nil];d_airecruit_dialog_open = false";
 	effectTilesAlpha = 0.15;

@@ -139,7 +139,7 @@ class d_restrict {
 
 class d_vec_hud {
 	idd=-1;
-	movingEnable = true;
+	movingEnable = 1;
 	fadein = 0;
 	fadeout = 1;
 	duration = 1e+011;
@@ -181,7 +181,7 @@ class d_vec_hud {
 };
 class d_chopper_hud {
 	idd=-1;
-	movingEnable = true;
+	movingEnable = 1;
 	fadein = 0;
 	fadeout = 1;
 	duration = 1e+011;
@@ -214,7 +214,7 @@ class d_chopper_hud {
 };
 class d_chopper_lift_hud {
 	idd=-1;
-	movingEnable = true;
+	movingEnable = 1;
 	fadein = 0;
 	fadeout = 0;
 	duration = 1e+011;
@@ -300,7 +300,7 @@ class d_chopper_lift_hud {
 };
 class d_chopper_lift_hud2 {
 	idd=-1;
-	movingEnable = true;
+	movingEnable = 1;
 	fadein = 0;
 	fadeout = 0;
 	duration = 1e+011;
@@ -515,7 +515,7 @@ class d_fpsresource {
 
 class d_cam_rose {
 	idd=-1;
-	movingEnable = true;
+	movingEnable = 1;
 	fadein = 0;
 	fadeout = 0;
 	duration = 1e+011;
