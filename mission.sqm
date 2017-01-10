@@ -8,7 +8,7 @@ class EditorData
 	toggles=13;
 	class ItemIDProvider
 	{
-		nextID=1250;
+		nextID=1255;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=300;
+		nextID=308;
 	};
 	class Camera
 	{
-		pos[]={2896.364,104.59385,6631.0386};
-		dir[]={0.40815088,-0.64783144,-0.64341062};
-		up[]={0.34711093,0.76155537,-0.54717827};
-		aside[]={-0.84453374,4.2634201e-006,-0.53572959};
+		pos[]={2864.9231,88.161812,6582.0078};
+		dir[]={-0.51598674,-0.80833977,-0.28390446};
+		up[]={-0.7082749,0.58849615,-0.38971066};
+		aside[]={-0.48212317,3.1301752e-006,0.87624723};
 	};
 };
 binarizationWanted=0;
@@ -84,7 +84,6 @@ addons[]=
 	"rhs_c_weapons",
 	"rhsusf_c_f22",
 	"RHS_US_A2Port_Armor",
-	"A3_Structures_F_EPB_Naval_Fishing",
 	"CUP_CAStructuresLand_Nav_Boathouse",
 	"rhsusf_c_markvsoc"
 };
@@ -92,7 +91,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=52;
+		items=51;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -428,17 +427,10 @@ class AddonsMetaData
 		};
 		class Item49
 		{
-			className="A3_Structures_F_EPB";
-			name="Arma 3 Adapt Episode - Buildings and Structures";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item50
-		{
 			className="CUP_CAStructuresLand_Nav_Boathouse";
 			name="CUP_CAStructuresLand_Nav_Boathouse";
 		};
-		class Item51
+		class Item50
 		{
 			className="rhsusf_c_markvsoc";
 			name="Mark V SOC";
@@ -481,7 +473,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=564;
+		items=565;
 		class Item0
 		{
 			dataType="Marker";
@@ -796,13 +788,13 @@ class Mission
 		class Item32
 		{
 			dataType="Marker";
-			position[]={2876.5,7.5,6566};
+			position[]={2906,7.5,6605.5};
 			name="d_boats";
 			text="Boats";
 			type="mil_box";
 			colorName="ColorBlue";
 			id=61;
-			atlOffset=5.3394127;
+			atlOffset=13.1469;
 		};
 		class Item33
 		{
@@ -23113,14 +23105,14 @@ class Mission
 		class Item503
 		{
 			dataType="Trigger";
-			position[]={2668,-9.9998703,6550.5};
-			angle=5.3964167;
+			position[]={2831,-4,6561};
+			angle=5.3964176;
 			class Attributes
 			{
 				condition="""Ship"" countType thislist  > 0;";
-				onActivation="nul = [thislist,120,30,0] execVM ""vehicleservice\vehicleServiceHabor.sqf"";";
-				sizeA=30;
-				sizeB=30;
+				onActivation="nul = [thislist,120,15,1] execVM ""vehicleservice\vehicleServiceHabor.sqf"";";
+				sizeA=15;
+				sizeB=15;
 				sizeC=20;
 				interuptable=1;
 				repeatable=1;
@@ -23128,18 +23120,18 @@ class Mission
 			};
 			id=1088;
 			type="EmptyDetector";
-			atlOffset=0.42300034;
+			atlOffset=5.0805712;
 		};
 		class Item504
 		{
 			dataType="Marker";
-			position[]={2697,0,6549};
+			position[]={2833.5,0,6560.5};
 			name="marker_8";
 			text="Ship Service Point ";
 			type="b_maint";
 			colorName="ColorBrown";
 			id=1090;
-			atlOffset=11.022561;
+			atlOffset=8.5598469;
 		};
 		class Item505
 		{
@@ -24048,18 +24040,18 @@ class Mission
 		class Item520
 		{
 			dataType="Marker";
-			position[]={2697,1.75147e+031,6549};
+			position[]={2830.5,5.244262e+012,6561};
 			name="marker_14";
-			markerType="RECTANGLE";
+			markerType="ELLIPSE";
 			type="rectangle";
 			colorName="ColorBrown";
 			fillName="Border";
-			a=30;
-			b=20;
-			angle=128.95912;
+			a=15;
+			b=15;
+			angle=128.95898;
 			drawBorder=1;
 			id=1131;
-			atlOffset=1.75147e+031;
+			atlOffset=5.244262e+012;
 		};
 		class Item521
 		{
@@ -26327,47 +26319,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2671,5.0196319,6549.5};
-				angles[]={0,0,6.2826962};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="habor";
-				createAsSimpleObject=1;
-			};
-			id=1240;
-			type="Land_CrabCages_F";
-			atlOffset=15.059;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item557
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={2911,-2.0442264,6597.5};
 				angles[]={0,1.1161032,0};
 			};
@@ -26423,7 +26374,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item558
+		class Item557
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26483,25 +26434,87 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item559
+		class Item558
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2901.5,2.5662911,6607};
-				angles[]={0,4.2560325,0};
+				position[]={2901.5,2.566294,6607};
+				angles[]={0,4.2560377,0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 3600, ""SHARK-02"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; this enableSimulationGlobal false; nul = [this,120,30,0] execVM ""vehicleservice\vehicleServiceHabor.sqf"";";
+				init="veh = [this, 300, 3600, ""SHARK-02"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; this enableSimulationGlobal false;";
 				name="mark52";
 			};
 			id=487;
 			type="rhsusf_mkvsoc";
-			atlOffset=5.4809971;
+			atlOffset=5.4809999;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit"",""Medikit""],[10,1]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_cookoff_enable";
+					expression="if !(_value) then {_this setVariable ['ace_cookoff_enable',_value,true];};";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item559
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2897.5,3.0665553,6615.5};
+				angles[]={0,4.2373977,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				skill=0.60000002;
+				lock="UNLOCKED";
+				init="veh = [this, 300, 1800, ""SHARK-01"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false; ";
+				name="mark51";
+			};
+			id=486;
+			type="rhsusf_mkvsoc";
+			atlOffset=7.0089998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26546,68 +26559,6 @@ class Mission
 			};
 		};
 		class Item560
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2897.5,3.0662911,6615.5};
-				angles[]={0,4.2373977,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				skill=0.60000002;
-				lock="UNLOCKED";
-				init="veh = [this, 300, 1800, ""SHARK-01"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false; nul = [this,120,30,0] execVM ""vehicleservice\vehicleServiceHabor.sqf"";";
-				name="mark51";
-			};
-			id=486;
-			type="rhsusf_mkvsoc";
-			atlOffset=7.0087357;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[""FirstAidKit"",""Medikit""],[10,1]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cookoff_enable";
-					expression="if !(_value) then {_this setVariable ['ace_cookoff_enable',_value,true];};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item561
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26667,7 +26618,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item562
+		class Item561
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26727,7 +26678,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item563
+		class Item562
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26744,6 +26695,126 @@ class Mission
 			id=1249;
 			type="Land_Nav_Boathouse_PierL";
 			atlOffset=6.3688064;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item563
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2828,-3.6505461,6566.5};
+				angles[]={0,4.1190815,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=1253;
+			type="Land_Nav_Boathouse_PierT";
+			atlOffset=12.299;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item564
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2833.5,-3.6506753,6555};
+				angles[]={0,0.99363339,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="habor";
+				disableSimulation=1;
+			};
+			id=1254;
+			type="Land_Nav_Boathouse_PierT";
+			atlOffset=7.414;
 			class CustomAttributes
 			{
 				class Attribute0
