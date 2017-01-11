@@ -27,10 +27,6 @@ saving = 0;
 loadScreen = "pics\domls.paa";
 overviewText = "Seize various main targets and resolve side missions...";
 
-#ifdef __DEBUG__
-enableDebugConsole = 2;
-#endif
-
 class Header {
 #ifndef __TT__
 	gameType = COOP;
