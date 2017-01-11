@@ -1,6 +1,6 @@
 //__EXEC(diag_log format ["############################# %1 #############################", missionName];);
 //__EXEC(diag_log [diag_frameno, diag_ticktime, time, "Executing Dom description.ext"]);
-enableDebugConsole = 1;//dangerous in M
+//enableDebugConsole = 1;//dangerous in M
 
 
 #include "x_setup.sqf"
@@ -736,14 +736,14 @@ class Params {
 	class d_WithLessArmor {
 		title = "$STR_DOM_MISSIONSTRING_1132";
 		values[] = {0,1,2};
-		default = 0;
+		default = 1;
 		texts[] = {"$STR_DOM_MISSIONSTRING_11","$STR_DOM_MISSIONSTRING_1133","$STR_DOM_MISSIONSTRING_405"};
 	};
 
 	class d_WithLessArmor_side {
 		title = "$STR_DOM_MISSIONSTRING_1730";
 		values[] = {0,1};
-		default = 0;
+		default = 1;
 		texts[] = {"$STR_DOM_MISSIONSTRING_11","$STR_DOM_MISSIONSTRING_405"};
 	};
 
