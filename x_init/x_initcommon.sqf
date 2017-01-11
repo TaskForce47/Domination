@@ -40,7 +40,7 @@ d_no_ai = !d_with_ai && {d_with_ai_features == 1};
 if (d_with_ace) then {
 	d_WithRevive = 1;
 	ace_medical_enableRevive = 1;
-	ace_medical_maxReviveTime = 300;
+	ace_medical_maxReviveTime = 900;
 };
 
 if (d_sub_kill_points != 0) then {
@@ -219,7 +219,7 @@ if (isServer || {!isDedicated && {!hasInterface}}) then {
 			];
 		};
 	};
-	
+
 	// enemy ai skill: [base skill, random value (random 0.3) that gets added to the base skill]
 	d_skill_array = switch (d_EnemySkill) do {
 		case 1: {[0.2,0.1]};
