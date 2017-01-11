@@ -96,8 +96,8 @@ _JumpOutHelicopters = ["uh601mev","uh602mev","uh1y1","uh1y2","uh1y3","ch531","lb
 // Vehicle Name, Driver Whitelist ID (0 for None), Crew Whitelist ID (0 for None), Driver Slots, Crew Slots
 _vehicleRestrictionData = [
 	//Aircraft
-	["uh601mev", 			[1, 1,	["sar11","sar12","sar21","sar22"],									["sar13","sar14","sar15","sar16","sar23","sar24"]]],
-	["uh602mev", 			[1, 1,	["sar11","sar12","sar21","sar22"],									["sar13","sar14","sar15","sar16","sar23","sar24"]]],
+	["uh601mev", 			[1, 1,	["sar11","sar12","sar21","sar22"],									["sar11","sar12","sar21","sar22","sar13","sar14","sar15","sar16","sar23","sar24"]]],
+	["uh602mev", 			[1, 1,	["sar11","sar12","sar21","sar22"],									["sar11","sar12","sar21","sar22","sar13","sar14","sar15","sar16","sar23","sar24"]]],
 	["ah1z1", 				[1, 1,	["rwa11","rwa12"],																	["rwa11","rwa12"]]],
 	["uh1y1", 				[1, 1,	["rwrt11","rwrt12","rwrt21","rwrt22"],							["rwrt13","rwrt14","rwrt23","rwrt24","rwrt11","rwrt12","rwrt21","rwrt22"]]],
 	["uh1y2", 				[1, 1,	["rwrt11","rwrt12","rwrt21","rwrt22"],							["rwrt13","rwrt14","rwrt23","rwrt24","rwrt11","rwrt12","rwrt21","rwrt22"]]],

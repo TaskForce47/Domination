@@ -77,6 +77,12 @@ switch (_sec_kind) do {
 #ifdef __TT__
 		_vec addEventHandler ["Killed", {[[15, 3, 2, 1], _this select 1, _this select 0] remoteExecCall ["d_fnc_AddKills", 2]}];
 #endif
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  };
+}];
 		sleep 1.0112;
 		__specops;
 	};
@@ -97,6 +103,12 @@ switch (_sec_kind) do {
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
 		sleep 1.0112;
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  };
+}];
 		__specops;
 	};
 	case 3: {
@@ -120,6 +132,12 @@ switch (_sec_kind) do {
 			_this pushBack "ammo_down";
 			_this call d_fnc_MTSMTargetKilled;
 			_this call d_fnc_handleDeadVec;
+		}];
+		_vec addEventhandler ["Killed", {
+			_killer = _this select 1;
+			if (isPlayer _killer) then {
+					["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+			};
 		}];
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
@@ -150,6 +168,12 @@ switch (_sec_kind) do {
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
 		sleep 1.0112;
+		_vec addEventhandler ["Killed", {
+			_killer = _this select 1;
+			if (isPlayer _killer) then {
+					["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+			};
+		}];
 		__specops;
 	};
 	case 5: {
@@ -168,6 +192,12 @@ switch (_sec_kind) do {
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
 		sleep 1.0112;
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  	};
+	}];
 		__specops;
 	};
 	case 6: {
@@ -186,6 +216,12 @@ switch (_sec_kind) do {
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
 		sleep 1.0112;
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  	};
+	}];
 		__specops;
 	};
 	case 7: {
@@ -208,6 +244,12 @@ switch (_sec_kind) do {
 		__vkilled(heavy_down);
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  		};
+		}];
 		sleep 1.0112;
 		__specops;
 	};
@@ -225,6 +267,12 @@ switch (_sec_kind) do {
 		__vkilled(airrad_down);
 		d_fixor_var = _vec;
 		d_mtmissionobj = _vec;
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  	};
+	}];
 		sleep 1.0112;
 		__specops;
 	};
@@ -269,9 +317,15 @@ switch (_sec_kind) do {
 		removeFromRemainsCollector [_vec];
 		[_vec] remoteExecCall ["d_fnc_addceo", 2];
 #ifdef __TT__
-		_vec addEventHandler ["Killed", {[[15, 3, 2, 1], _this select 1, _this select 0] remoteExecCall ["d_fnc_AddKills", 2]}];
+		_vec addEventHandler ["Killed", {[[15, 3, 2, 1], _this select 1, _this select 0] remoteExecCall ["d_fnc_AddKills", 2];];
 #endif
 		sleep 1.0112;
+		_vec addEventhandler ["Killed", {
+			_killer = _this select 1;
+			if (isPlayer _killer) then {
+					["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+			};
+		}];
 		__specops;
 	};
 	case 10: {
@@ -315,9 +369,15 @@ switch (_sec_kind) do {
 		removeFromRemainsCollector [_vec];
 		[_vec] remoteExecCall ["d_fnc_addceo", 2];
 #ifdef __TT__
-		_vec addEventHandler ["Killed", {[[15, 3, 2, 1], _this select 1, _this select 0] remoteExecCall ["d_fnc_AddKills", 2]}];
+		_vec addEventHandler ["Killed", {[[15, 3, 2, 1], _this select 1, _this select 0] remoteExecCall ["d_fnc_AddKills", 2];];
 #endif
 		sleep 1.0112;
+		_vec addEventhandler ["Killed", {
+  _killer = _this select 1;
+  if (isPlayer _killer) then {
+      ["tf47_changetickets", [WEST, 2, 10, "Secondary Main Target"]] call CBA_fnc_globalEvent;
+  };
+}];
 		__specops;
 	};
 };
