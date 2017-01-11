@@ -101,6 +101,7 @@ private _make_jump = {
 				_pposcx = getPosATL _vec;
 				_para setPos [_pposcx select 0, _pposcx select 1, (_pposcx select 2) - 10];
 				_one_unit call d_fnc_removenvgoggles_fak;
+				_one_unit linkItem "rhs_1PN138";
 #ifdef __TT__
 				_one_unit addEventHandler ["killed", {[[15, 3, 2, 1], _this select 1, _this select 0] remoteExecCall ["d_fnc_AddKills", 2]}];
 #endif
