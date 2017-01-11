@@ -8,7 +8,7 @@ class EditorData
 	toggles=525;
 	class ItemIDProvider
 	{
-		nextID=1285;
+		nextID=1321;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6866.3398,68.818245,1249.6749};
-		dir[]={0.86778808,-0.49673489,-0.021100463};
-		up[]={0.4967806,0.86777842,-0.012083238};
-		aside[]={-0.024316227,-4.591273e-006,-0.99981958};
+		pos[]={2971.3564,602.91144,7531.2349};
+		dir[]={0.038226068,-0.7451399,-0.66599905};
+		up[]={0.04270044,0.6667667,-0.74401784};
+		aside[]={-0.99846774,-1.7950697e-006,-0.05730151};
 	};
 };
 binarizationWanted=0;
@@ -483,7 +483,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=572;
+		items=607;
 		class Item0
 		{
 			dataType="Marker";
@@ -26979,6 +26979,578 @@ class Mission
 				};
 				nAttributes=4;
 			};
+		};
+		class Item572
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3013,14.181899,7185.5};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1286;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=1.2397766e-005;
+		};
+		class Item573
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3003.5,14.467649,7191.5};
+				angles[]={6.090486,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1287;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0069665909;
+		};
+		class Item574
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2993.5349,14.993825,7197.0049};
+				angles[]={6.0904856,0,0.08998616};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1288;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=0.026004791;
+		};
+		class Item575
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2986.7915,14.175874,7189.5327};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1289;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item576
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2977.0315,14.175874,7181.4956};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1290;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item577
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3018.0957,14.175874,7128.2383};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1291;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item578
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2978.4197,14.175874,7123.1445};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1292;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item579
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3025.2661,14.412725,7046.3462};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1293;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item580
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2985.5645,14.269592,7041.3491};
+				angles[]={6.2764196,0,6.2820935};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1294;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0053834915;
+		};
+		class Item581
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3032.8533,14.412725,6960.939};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1295;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item582
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2992.9089,14.187154,6955.5112};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1296;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item583
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3039.0623,14.412725,6888.7437};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1297;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item584
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2999.231,14.187154,6884.1294};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1298;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item585
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3044.6052,14.153317,6825.4438};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1299;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item586
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3004.6624,14.153317,6822.0405};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1300;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item587
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3050.7312,14.138122,6756.0146};
+				angles[]={0,0,6.265142};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1301;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0080289841;
+		};
+		class Item588
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3010.6763,14.153317,6752.1621};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1302;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item589
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3016.5984,14.189936,6684.8203};
+				angles[]={6.2826972,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1303;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0059499741;
+		};
+		class Item590
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3056.5012,14.197762,6688};
+				angles[]={0,0,6.2730365};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1304;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=0.0029096603;
+		};
+		class Item591
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3021.436,14.169036,6631.4268};
+				angles[]={0,0,0.010148779};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1305;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0048789978;
+		};
+		class Item592
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3061.3406,14.153317,6633.5854};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1306;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item593
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3025.6304,14.19632,6584.4707};
+				angles[]={0.0016914561,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1307;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0062017441;
+		};
+		class Item594
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3065.2261,14.153317,6588.8975};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1308;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item595
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3030.491,14.254826,6528.0728};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1309;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item596
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3070.2151,14.153317,6533.8296};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1310;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item597
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3034.5183,14.153317,6480.0059};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1311;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item598
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3074.551,14.153317,6482.8081};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1312;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item599
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3079.4854,14.153317,6426.9995};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1313;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item600
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3066.5,14.159324,6426};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1314;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-6.6757202e-006;
+		};
+		class Item601
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3052.5,14.000123,6424.4946};
+				angles[]={6.2324753,0,0.050710332};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1315;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0068082809;
+		};
+		class Item602
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3039.501,14.083541,6423.4995};
+				angles[]={6.2713451,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1316;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=0.0011873245;
+		};
+		class Item603
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3036.0789,14.153317,6463.2905};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1317;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item604
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3075.9319,14.153317,6467.7852};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1318;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.0060129166;
+		};
+		class Item605
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3067.7039,16.398132,6414.8013};
+				angles[]={0.41392234,0,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1319;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.055078506;
+		};
+		class Item606
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3052.6199,16.187023,6413.4404};
+				angles[]={0.35084936,0,0.0636383};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1320;
+			type="PortableHelipadLight_01_blue_F";
+			atlOffset=-0.039773941;
 		};
 	};
 	class Connections
