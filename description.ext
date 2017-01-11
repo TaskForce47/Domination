@@ -12,7 +12,7 @@ allowFunctionsLog = 1;
 #endif
 #include "cfgfunctions.hpp"
 
-author = "Xeno";
+author = "Xeno, modified by Meat and Chris";
 OnLoadName = "{MISSIONINFO}";
 onLoadMission = __D_VER_NAME__;
 onLoadIntroTime = 0;
@@ -736,7 +736,7 @@ class Params {
 	class d_WithLessArmor {
 		title = "$STR_DOM_MISSIONSTRING_1132";
 		values[] = {0,1,2};
-		default = 1;
+		default = 2;
 		texts[] = {"$STR_DOM_MISSIONSTRING_11","$STR_DOM_MISSIONSTRING_1133","$STR_DOM_MISSIONSTRING_405"};
 	};
 
