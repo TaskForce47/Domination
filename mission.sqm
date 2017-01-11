@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=13;
+	toggles=525;
 	class ItemIDProvider
 	{
-		nextID=1255;
+		nextID=1265;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=308;
+		nextID=324;
 	};
 	class Camera
 	{
-		pos[]={2864.9231,88.161812,6582.0078};
-		dir[]={-0.51598674,-0.80833977,-0.28390446};
-		up[]={-0.7082749,0.58849615,-0.38971066};
-		aside[]={-0.48212317,3.1301752e-006,0.87624723};
+		pos[]={2885.333,9.8247185,6622.1348};
+		dir[]={0.63476449,-0.61447722,0.4687739};
+		up[]={0.49444944,0.78869104,0.36515629};
+		aside[]={0.59413296,3.5567209e-006,-0.80451387};
 	};
 };
 binarizationWanted=0;
@@ -85,13 +85,14 @@ addons[]=
 	"rhsusf_c_f22",
 	"RHS_US_A2Port_Armor",
 	"CUP_CAStructuresLand_Nav_Boathouse",
-	"rhsusf_c_markvsoc"
+	"rhsusf_c_markvsoc",
+	"A3_Boat_F_Exp_Boat_Transport_02"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=51;
+		items=52;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -437,6 +438,13 @@ class AddonsMetaData
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
+		class Item51
+		{
+			className="A3_Boat_F_Exp";
+			name="Arma 3 Apex - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
 	};
 };
 randomSeed=14540839;
@@ -473,7 +481,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=565;
+		items=568;
 		class Item0
 		{
 			dataType="Marker";
@@ -23106,7 +23114,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={2831,-4,6561};
-			angle=5.3964176;
+			angle=5.3964167;
 			class Attributes
 			{
 				condition="""Ship"" countType thislist  > 0;";
@@ -26856,6 +26864,146 @@ class Mission
 					};
 				};
 				nAttributes=2;
+			};
+		};
+		class Item565
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2895.5,-2.0442641,6629.5};
+				angles[]={0,1.1161032,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				createAsSimpleObject=1;
+				disableSimulation=1;
+			};
+			id=1259;
+			type="Land_Nav_Boathouse";
+			atlOffset=6.3671021;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item566
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2896,1.3158288,6632.5};
+				angles[]={0,4.2465606,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="veh = [this, 300, 7200, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+			};
+			id=1263;
+			type="I_C_Boat_Transport_02_F";
+			atlOffset=5.9400001;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit""],[2]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item567
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2898,1.3160019,6628};
+				angles[]={0,4.2694068,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="veh = [this, 300, 7200, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+			};
+			id=1264;
+			type="I_C_Boat_Transport_02_F";
+			atlOffset=6.9439993;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit""],[2]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};
