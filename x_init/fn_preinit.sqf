@@ -785,7 +785,7 @@ d_cas_plane =
 #ifdef __ALTIS__
 	// enemy parachute troops transport chopper
 	d_transport_chopper = switch (d_enemy_side_short) do {
-		case "E": {["RHS_AN2"]};
+		case "E": {["RHS_AN2","rhsgref_ins_g_Mi8amt"]};
 		case "W": {["RHS_UH60M"]};
 		case "G": {["rhsgref_ins_g_Mi8amt"]};
 	};

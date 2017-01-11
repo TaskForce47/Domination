@@ -8,7 +8,7 @@ class EditorData
 	toggles=525;
 	class ItemIDProvider
 	{
-		nextID=1265;
+		nextID=1276;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=324;
+		nextID=340;
 	};
 	class Camera
 	{
-		pos[]={2885.333,9.8247185,6622.1348};
-		dir[]={0.63476449,-0.61447722,0.4687739};
-		up[]={0.49444944,0.78869104,0.36515629};
-		aside[]={0.59413296,3.5567209e-006,-0.80451387};
+		pos[]={2919.1831,49.266335,6507.5527};
+		dir[]={-0.45186979,-0.34104535,0.82447046};
+		up[]={-0.1640752,0.93984252,0.29936141};
+		aside[]={0.87703067,1.3636309e-006,0.48066866};
 	};
 };
 binarizationWanted=0;
@@ -86,7 +86,9 @@ addons[]=
 	"RHS_US_A2Port_Armor",
 	"CUP_CAStructuresLand_Nav_Boathouse",
 	"rhsusf_c_markvsoc",
-	"A3_Boat_F_Exp_Boat_Transport_02"
+	"A3_Boat_F_Exp_Boat_Transport_02",
+	"A3_Structures_F_Naval_Buoys",
+	"A3_Structures_F_Naval_Piers"
 };
 class AddonsMetaData
 {
@@ -481,7 +483,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=568;
+		items=572;
 		class Item0
 		{
 			dataType="Marker";
@@ -23113,7 +23115,7 @@ class Mission
 		class Item503
 		{
 			dataType="Trigger";
-			position[]={2831,-4,6561};
+			position[]={2828.5,-4,6563.5};
 			angle=5.3964167;
 			class Attributes
 			{
@@ -23128,7 +23130,7 @@ class Mission
 			};
 			id=1088;
 			type="EmptyDetector";
-			atlOffset=5.0805712;
+			atlOffset=6.4292145;
 		};
 		class Item504
 		{
@@ -26751,126 +26753,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2828,-3.6505461,6566.5};
-				angles[]={0,4.1190815,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				createAsSimpleObject=1;
-				disableSimulation=1;
-			};
-			id=1253;
-			type="Land_Nav_Boathouse_PierT";
-			atlOffset=12.299;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item564
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2833.5,-3.6506753,6555};
-				angles[]={0,0.99363339,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="habor";
-				disableSimulation=1;
-			};
-			id=1254;
-			type="Land_Nav_Boathouse_PierT";
-			atlOffset=7.414;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item565
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={2895.5,-2.0442641,6629.5};
 				angles[]={0,1.1161032,0};
 			};
@@ -26926,7 +26808,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item566
+		class Item564
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26966,7 +26848,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item567
+		class Item565
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27005,6 +26887,99 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item566
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2822,1.5993831,6551};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="habor";
+			};
+			id=1265;
+			type="Land_BuoyBig_F";
+			atlOffset=5.4229999;
+		};
+		class Item567
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2844,2.0989182,6562};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1266;
+			type="Land_BuoyBig_F";
+			atlOffset=5.9856567;
+		};
+		class Item568
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2813.5,1.5989182,6564.5};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1268;
+			type="Land_BuoyBig_F";
+			atlOffset=9.8811522;
+		};
+		class Item569
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2836,2.0989182,6577};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1269;
+			type="Land_BuoyBig_F";
+			atlOffset=10.573254;
+		};
+		class Item570
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2839.5,-0.95153928,6551.5};
+				angles[]={0,2.6015811,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1273;
+			type="Land_PierLadder_F";
+			atlOffset=4.1715846;
+		};
+		class Item571
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2836,-0.95153928,6549.5};
+				angles[]={0,2.6015811,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1275;
+			type="Land_PierLadder_F";
+			atlOffset=4.039319;
 		};
 	};
 	class Connections
