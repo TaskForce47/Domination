@@ -180,11 +180,9 @@ while {_run} do
 	};
 
 	// Respawn vehicle
-    if (_dead) then
-	{
+  if (_dead) then {
 		_ticketcost = _unit getVariable ["ticketCost", 0];
 		_delay = _unit getVariable ["respawnDelay", 0];
-
 		// Debug Respawn does not cost any tickets
 		_debugdelay = 0;
 		if(_unit getVariable ["initialRespawn", false]) then {
@@ -196,7 +194,6 @@ while {_run} do
 				_debugdelay = 300;
 				_nodelay = true;
 				_explode = false;
-
 			// Handle Lost Tickets
 			} else {
 				if(_ticketcost > 0) then {
@@ -247,15 +244,15 @@ while {_run} do
 		_unit lock _lock;
 
 		[_unit] execVM format["%1mapMarkerUpdate.sqf", _pathToScripts];
-
 		if (_markertext != "") then {
-			// @TODO:
-			//_unit setVehicleInit format ["[%1, ""%2"", ""%3"", %4, ""%5"", %6] execVM ""%7unitMarkerInit.sqf"";", "this", _markertext, _markertype, _markerside, _markercolor, _markerdespawn, _pathToScripts];
+			//_unit setVehicleInit format ["[%1, '%2', '%3', %4, '%5', %6] execVM '%7unitMarkerInit.sqf';", "this", _markertext, _markertype, _markerside, _markercolor, _markerdespawn, _pathToScripts];
 			//processInitCommands;
-			// FIX:
+			// FIX
 			[[_unit, _markertext, _markertype, _markerside, _markercolor, _markerdespawn], "tf47_fnc_unitMarkerInit", true, true] spawn BIS_fnc_MP;
+			//[_unit, _markertext, _markertype, _markerside, _markercolor, _markerdespawn] remoteExecCall ["tf47_fnc_unitMarkerInit", 0, true];
+		} else {
+			[[_unit, _markertext, "hd_dot", _markerside, "ColorBlue", _markerdespawn], "tf47_fnc_unitMarkerInit", true, true] spawn BIS_fnc_MP;
 		};
-
 		if (_hasname) then {
 			_unit setVehicleVarName _unitname;
 			//_unit setVehicleInit format ["%1 = this; this setVehicleVarName ""%1""",_unitname];
