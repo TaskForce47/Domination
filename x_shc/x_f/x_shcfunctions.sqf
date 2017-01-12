@@ -53,7 +53,7 @@ d_fnc_groupmarker = {
 			if (_vec isKindOf "Wheeled_APC" || {_vec isKindOf "Wheeled_APC_F"}) exitWith {switch (side _grp) do {case blufor: {"b_mech_inf"};case opfor: {"o_mech_inf"};default {"n_mech_inf"};}};
 			if (_vec isKindOf "Car") exitWith {switch (side _grp) do {case blufor: {"b_motor_inf"};case opfor: {"o_motor_inf"};default {"n_motor_inf"};}};
 			if (_vec isKindOf "Tank") exitWith {switch (side _grp) do {case blufor: {"b_armor"};case opfor: {"o_armor"};default {"n_armor"};}};
-			if (_vec isKindOf "Helicopter") exitWith {switch (side _grp) do {case blufor: {"b_air"};case opfor: {"o_air"};default {"n_air"};}};
+			if (_vec isKindOf "Helicopter") exitWith {switch (side _grp) do {case blufor: {"b_air"};case opfor: {"o_unknow"};default {"n_air"};}};
 			if (_vec isKindOf "Plane") exitWith {switch (side _grp) do {case blufor: {"b_plane"};case opfor: {"o_plane"};default {"n_plane"};}};
 			if (_vec isKindOf "StaticCannon") exitWith {switch (side _grp) do {case blufor: {"b_art"};case opfor: {"o_art"};default {"n_art"};}};
 			if (_vec isKindOf "StaticMortar") exitWith {switch (side _grp) do {case blufor: {"b_mortar"};case opfor: {"o_mortar"};default {"n_mortar"};}};
