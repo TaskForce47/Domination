@@ -28,7 +28,7 @@ loadScreen = "pics\domls.paa";
 overviewText = "Seize various main targets and resolve side missions...";
 
 #ifdef __DEBUG__
-enableDebugConsole = 2;
+enableDebugConsole = 1;
 #endif
 
 class Header {
