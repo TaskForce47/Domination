@@ -235,9 +235,9 @@ while {_run} do
 		if (_debugdelay > 0) then {sleep _debugdelay;};
 		sleep 2;
 
-		_unit = _type createVehicle _position;
-		_unit setPosASL _position;
+		_unit = _type createVehicle [0,0,1000];
 		_unit setDir _dir;
+		_unit setPosASL _position;
 		_unit setVariable ["respawnDelay", _delay, true];
 		_unit setVariable ["ticketCost", _ticketcost, true];
 		_unit setVariable ["LockOnRespawn", _lock, true];
