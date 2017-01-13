@@ -48,8 +48,8 @@ if (d_sub_kill_points != 0) then {
 };
 
 if (d_GrasAtStart == 1) then {setTerrainGrid 50};
-
-if (isServer) then {skipTime d_TimeOfDay};
+tf_TimeOfDay=floor random [0,12,23];
+if (isServer) then {tf_TimeOfDay};
 
 if (isServer || {!isDedicated && {!hasInterface}}) then {
 	// first element (array. for example: [2,1]): number of vehicle groups that will get spawned, the first number is the max number that will get spawned,
@@ -173,20 +173,20 @@ if (isServer || {!isDedicated && {!hasInterface}}) then {
 		case 2: {
 			d_vec_numbers_guard = [
 				[[0,0], 1], // tanks
-				[[0,0], 1], // tracked apc
-				[[0,0], 1], // wheeled apc
+				[[5,1], 1], // tracked apc
+				[[5,1], 1], // wheeled apc
 				[[2,1], 1], // jeep with mg
 				[[2,1], 1] // jeep with gl
 			];
 			d_vec_numbers_guard_static = [
 				[[0,0], 1], // tanks
-				[[0,0], 1], // tracked apc
+				[[5,1], 1], // tracked apc
 				[[0,0], 1] // aa
 			];
 			d_vec_numbers_patrol = [
 				[[0,0], 1], // tanks
-				[[0,0], 1], // tracked apc
-				[[0,0], 1], // wheeled apc
+				[[5,1], 1], // tracked apc
+				[[5,1], 1], // wheeled apc
 				[[2,1], 1], // jeep with mg
 				[[2,1], 1] // jeep with gl
 			];
