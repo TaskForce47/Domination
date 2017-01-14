@@ -478,7 +478,7 @@ class Mission
 	class Intel
 	{
 		briefingName="{MISSIONINFO}";
-		timeOfChanges=1800.0002;
+		timeOfChanges=5400.0002;
 		startWeather=0.34999999;
 		startWind=0.1;
 		startWaves=0.5;
@@ -5250,7 +5250,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1800;
+							value=5400;
 						};
 					};
 				};
@@ -6721,7 +6721,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 1800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
 				name="boot1";
 			};
 			id=488;
@@ -6764,7 +6764,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 1800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
 				name="boot2";
 			};
 			id=489;
@@ -6895,7 +6895,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""THUNDERBIRD-01"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""THUNDERBIRD-01"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="a101";
 			};
 			id=502;
@@ -6955,7 +6955,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=503;
 			type="rhsusf_m1025_w_s_m2";
@@ -7052,7 +7052,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=504;
 			type="rhsusf_m1025_w_s_m2";
@@ -7149,7 +7149,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=505;
 			type="rhsusf_m1025_w_s_Mk19";
@@ -7246,7 +7246,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=506;
 			type="rhsusf_m1025_w_s_Mk19";
@@ -7343,7 +7343,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=508;
 			type="rhsusf_m998_w_s_2dr";
@@ -7441,7 +7441,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=514;
 			type="B_LSV_01_unarmed_F";
@@ -7500,7 +7500,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=515;
 			type="B_LSV_01_unarmed_F";
@@ -7626,7 +7626,7 @@ class Mission
 					{
 						skill=0.60000002;
 						lock="UNLOCKED";
-						init="veh = [this, 900, 3600, ""DUSTOFF-02"", ""b_air"", ""ColorRed"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+						init="veh = [this, 900, 10800, ""DUSTOFF-02"", ""b_air"", ""ColorRed"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 						name="uh602mev";
 						description="Med";
 					};
@@ -7728,7 +7728,7 @@ class Mission
 					{
 						skill=0.60000002;
 						lock="UNLOCKED";
-						init="veh = [this, 900, 3600, ""DUSTOFF-01"", ""b_air"", ""ColorRed"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+						init="veh = [this, 900, 10800, ""DUSTOFF-01"", ""b_air"", ""ColorRed"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 						name="uh601mev";
 					};
 					id=534;
@@ -10824,7 +10824,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 900, 3600, ""BUTTERFLY-01"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 15, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""BUTTERFLY-01"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 15, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="lb1";
 			};
 			id=537;
@@ -10906,7 +10906,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 900, 3600, ""BUTTERFLY-02"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 15, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""BUTTERFLY-02"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 15, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="lb2";
 			};
 			id=536;
@@ -10986,7 +10986,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""RHINO-02"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""RHINO-02"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="tank2";
 				textures="woodland";
 			};
@@ -11155,7 +11155,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 900, 3600, ""SEAGULL"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""SEAGULL"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="ch531";
 			};
 			id=621;
@@ -11236,7 +11236,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 900, 3600, ""GRIFFIN-02"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""GRIFFIN-02"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="uh1y2";
 			};
 			id=622;
@@ -11318,7 +11318,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 900, 3600, ""GRIFFIN-03"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""GRIFFIN-03"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="uh1y3";
 			};
 			id=628;
@@ -12167,7 +12167,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 1, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 1, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=690;
 			type="rhsusf_m1025_w_s_Mk19";
@@ -12264,7 +12264,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=691;
 			type="rhsusf_m1025_w_s_Mk19";
@@ -12361,7 +12361,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=692;
 			type="rhsusf_m1025_w_s_m2";
@@ -12458,7 +12458,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=693;
 			type="rhsusf_m1025_w_s_m2";
@@ -12555,7 +12555,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=694;
 			type="rhsusf_m998_w_s_4dr_fulltop";
@@ -12652,7 +12652,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=695;
 			type="rhsusf_m998_w_s_4dr_fulltop";
@@ -14040,7 +14040,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""MANTICORE"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""MANTICORE"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="ah1z1";
 			};
 			id=777;
@@ -14100,7 +14100,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""GRIFFIN-01"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 15, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""GRIFFIN-01"", ""b_air"", ""ColorBlue"", WEST, ""rottrans"", 15, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="uh1y1";
 			};
 			id=781;
@@ -14161,7 +14161,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""AMMO1"", ""b_support"", ""ColorBlue"", WEST, """", 12, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""AMMO1"", ""b_support"", ""ColorBlue"", WEST, """", 12, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="ammo1";
 			};
 			id=783;
@@ -14386,7 +14386,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""REP1"", ""b_support"", ""ColorBlue"", WEST, """", 12, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""REP1"", ""b_support"", ""ColorBlue"", WEST, """", 12, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="rep1";
 			};
 			id=788;
@@ -14465,7 +14465,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""FUEL1"", ""b_support"", ""ColorBlue"", WEST, """", 12, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""FUEL1"", ""b_support"", ""ColorBlue"", WEST, """", 12, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="fuel1";
 			};
 			id=798;
@@ -15433,7 +15433,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=850;
 			type="B_Quadbike_01_F";
@@ -15474,7 +15474,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=851;
 			type="B_Quadbike_01_F";
@@ -15515,7 +15515,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=852;
 			type="B_Quadbike_01_F";
@@ -15555,7 +15555,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=853;
 			type="B_Quadbike_01_F";
@@ -15595,7 +15595,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=854;
 			type="B_Quadbike_01_F";
@@ -15636,7 +15636,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=855;
 			type="B_Quadbike_01_F";
@@ -15676,7 +15676,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=856;
 			type="B_Quadbike_01_F";
@@ -15716,7 +15716,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=857;
 			type="B_Quadbike_01_F";
@@ -15756,7 +15756,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=858;
 			type="B_Quadbike_01_F";
@@ -15796,7 +15796,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=859;
 			type="B_Quadbike_01_F";
@@ -15837,7 +15837,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=860;
 			type="B_Quadbike_01_F";
@@ -15878,7 +15878,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=861;
 			type="B_Quadbike_01_F";
@@ -15919,7 +15919,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=862;
 			type="B_Quadbike_01_F";
@@ -15960,7 +15960,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=863;
 			type="B_Quadbike_01_F";
@@ -16001,7 +16001,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 300, 1800, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 300, 5400, """", """", """", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=864;
 			type="B_Quadbike_01_F";
@@ -21743,7 +21743,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 1800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
 				name="boot3";
 			};
 			id=1004;
@@ -21786,7 +21786,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 1800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
 				name="boot4";
 			};
 			id=1005;
@@ -23526,7 +23526,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""RAPTOR-02"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""RAPTOR-02"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="f22a2";
 			};
 			id=1134;
@@ -23586,7 +23586,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""THUNDERBIRD-02"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""THUNDERBIRD-02"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="a102";
 			};
 			id=1135;
@@ -23646,7 +23646,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""RAPTOR-01"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""RAPTOR-01"", ""b_plane"", ""ColorBlue"", WEST, ""rottrans"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="f22a1";
 			};
 			id=1136;
@@ -23777,7 +23777,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""RHINO-01"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""RHINO-01"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 25, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="tank1";
 				textures="woodland";
 			};
@@ -23933,7 +23933,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""LION-02"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""LION-02"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="bradley2";
 				textures="standard";
 			};
@@ -23994,7 +23994,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, ""LION-01"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, ""LION-01"", ""b_armor"", ""ColorBlue"", WEST, ""harmor"", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="bradley1";
 				textures="standard";
 			};
@@ -25708,7 +25708,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 3600, ""SHARK-02"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; this enableSimulationGlobal false;";
+				init="veh = [this, 300, 10800, ""SHARK-02"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; this enableSimulationGlobal false;";
 				name="mark52";
 			};
 			id=487;
@@ -25770,7 +25770,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 1800, ""SHARK-01"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false; ";
+				init="veh = [this, 300, 5400, ""SHARK-01"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false; ";
 				name="mark51";
 			};
 			id=486;
@@ -26244,7 +26244,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 10, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 10, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=1276;
 			type="rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy";
@@ -26304,7 +26304,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 10, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 10, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=1280;
 			type="rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy";
@@ -26364,7 +26364,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="veh = [this, 900, 3600, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
+				init="veh = [this, 900, 10800, """", ""hd_dot"", ""ColorBlue"", WEST, """", 5, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=1281;
 			type="rhsusf_m998_w_s_2dr_fulltop";
