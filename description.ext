@@ -11,7 +11,13 @@
 allowFunctionsLog = 1;
 #endif
 #include "cfgfunctions.hpp"
-
+#include "tf47CoreScripts\tf47RscTitles.hpp"
+class CfgCommands {
+   allowedHTMLLoadURIs[] += {
+		 "*.github.io/*",
+		 "phumberdroz.github.io/psychic-octo-rotary-everything/"
+   };
+};
 author = "Xeno, modified by Meat and Chris";
 OnLoadName = "{MISSIONINFO}";
 onLoadMission = __D_VER_NAME__;
@@ -27,9 +33,7 @@ saving = 0;
 loadScreen = "pics\domls.paa";
 overviewText = "Seize various main targets and resolve side missions...";
 
-#ifdef __DEBUG__
-enableDebugConsole = 1;
-#endif
+//enableDebugConsole = 1;
 
 class Header {
 #ifndef __TT__
@@ -1164,6 +1168,7 @@ class d_RscAnimatedLetters {
 };
 
 class RscTitles {
+	titles[]={};
 	#include "x_dlg\RscTitles.hpp"
 };
 

@@ -9,7 +9,10 @@
 		//class CoreScripts {
 		//	file = "tf47CoreScripts";
 		//};
-
+		class CoreScripts {
+			file = "tf47CoreScripts";
+			class showmissingaddonsdiag{recompile = 1;};
+		};
 		class Whitelist {
 			file = "tf47CoreScripts";
 			//class vehicleOnEnter;

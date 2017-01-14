@@ -17,6 +17,9 @@ class D_DomLabel {
 		};
 	};
 };
+
+
+
 class d_DomThree {
 	idd=-1;
 	movingEnable=0;
@@ -188,7 +191,7 @@ class d_chopper_hud {
 	name="d_chopper_hud";
 	onLoad="uiNamespace setVariable ['d_chopper_hud', param [0]]";
 	onUnLoad="uiNamespace setVariable ['d_chopper_hud', nil]";
-	
+
 	class controls {
 		class Text: d_RscStructuredText {
 			idc = 9999;
