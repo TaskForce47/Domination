@@ -673,9 +673,9 @@ d_cas_plane =
 		case "G": {"I_Plane_Fighter_03_CAS_F"};
 	};
 	d_sm_tank = switch (d_enemy_side_short) do {
-		case "E": {"rhsgref_ins_t72ba"};
+		case "E": {"rhsgref_BRDM2_ins_g"};
 		case "W": {"rhsusf_m1a2sep1tuskiwd_usarmy"};
-		case "G": {"rhsgref_ins_g_t72ba"};
+		case "G": {"rhsgref_BRDM2_ins_g"};
 	};
 	d_sm_HunterGMG = switch (d_enemy_side_short) do {
 		case "E": {"rhsgref_BRDM2_ins"};
