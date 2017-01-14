@@ -12,7 +12,7 @@ params ["_type"];
 #define __wp_behave "AWARE"
 
 while {true} do {
-#ifndef __DEBUG__
+
 	if (!d_mt_radio_down) then {
 		while {!d_mt_spotted} do {sleep 11.32};
 	} else {
@@ -21,19 +21,16 @@ while {true} do {
 			while {!d_mt_spotted} do {sleep 12.32};
 		};
 	};
-#endif
 	private _vec = objNull;
 	private _vehicles = [];
 	private _funits = [];
 	private _num_p = call d_fnc_PlayersNumber;
-#ifndef __DEBUG__
 	sleep (call {
 		if (_num_p < 5) exitWith {2400};
 		if (_num_p < 10) exitWith {2400};
 		if (_num_p < 20) exitWith {2400};
 		2400;
 	});
-#endif
 	call d_fnc_mpcheck;
 	while {d_mt_radio_down} do {sleep 6.123};
 	private _pos = call d_fnc_GetRanPointOuterAir;
