@@ -12,6 +12,7 @@ params ["_type"];
 #define __wp_behave "AWARE"
 
 while {true} do {
+
 	if (!d_mt_radio_down) then {
 		while {!d_mt_spotted} do {sleep 11.32};
 	} else {
@@ -24,12 +25,11 @@ while {true} do {
 	private _vehicles = [];
 	private _funits = [];
 	private _num_p = call d_fnc_PlayersNumber;
-
 	sleep (call {
 		if (_num_p < 5) exitWith {2400};
-		if (_num_p < 10) exitWith {1800};
-		if (_num_p < 20) exitWith {1800};
-		400;
+		if (_num_p < 10) exitWith {2400};
+		if (_num_p < 20) exitWith {2400};
+		2400;
 	});
 	call d_fnc_mpcheck;
 	while {d_mt_radio_down} do {sleep 6.123};
@@ -46,15 +46,15 @@ while {true} do {
 	switch (_type) do {
 		case "HAC": {
 			_heli_type = selectRandom d_airai_attack_chopper;
-			_numair = d_number_attack_choppers;
+			_numair = 1;
 		};
 		case "AP": {
 			_heli_type = selectRandom d_airai_attack_plane;
-			_numair = d_number_attack_planes;
+			_numair = 1;
 		};
 		case "LAC": {
 			_heli_type = selectRandom d_light_attack_chopper;
-			_numair = d_number_attack_choppers;
+			_numair = 1;
 		};
 	};
 
@@ -127,11 +127,10 @@ _pat_pos = _cur_tgt_pos getPos [random _radius, random 360]; \
 _pat_pos set [2, _cur_tgt_pos select 2]
 
 
-#ifdef __DEBUG__
+
 	_xdist = (_vehicles select 0) distance2D _cur_tgt_pos;
 	__TRACE_1("","_xdist")
-#endif
-		_curvec = objNull;
+			_curvec = objNull;
 		{
 			if (alive _x && {canMove _x}) exitWith {
 				_curvec = _x;
@@ -216,16 +215,13 @@ _pat_pos set [2, _cur_tgt_pos select 2]
 		};
 		sleep 20;
 	};
-#ifndef __DEBUG__
+
 	_num_p = call d_fnc_PlayersNumber;
 	private _re_random = call {
-		if (_num_p < 5) exitWith {1800};
-		if (_num_p < 10) exitWith {1800};
-		if (_num_p < 20) exitWith {1800};
-		400;
+		if (_num_p < 5) exitWith {2400};
+		if (_num_p < 10) exitWith {2400};
+		if (_num_p < 20) exitWith {2400};
+		2400;
 	};
-	sleep (d_airai_respawntime + _re_random + (random _re_random));
-#else
-	sleep 10;
-#endif
+	sleep (3600 + _re_random + (random _re_random));
 };

@@ -50,42 +50,26 @@ if (alive _vec && {_reached_base}) then {
 	d_sm_winner = -600;
 };
 //Destroy
-_crw = crew _veh;
-
+_crw = crew _vec;
 {
-
 	_crwman = _x;
-
 	unAssignVehicle _crwman;
-
-	_crwman action ["getOut", _veh];
-
+	_crwman action ["getOut", _vec];
 } forEach _crw;
 
-
-
-_veh lock true;
-
-
-
-_veh vehicleChat "Bitte das Fahrzeug verlassen. - Please leave the Vehicle.";
-
+_vec lock true;
+_vec vehicleChat "Bitte das Fahrzeug verlassen. - Please leave the Vehicle.";
 sleep 5;
-
-_veh setFuel 0;
-
-
+_vec setFuel 0;
 
 // Initiate Respawn
 
 sleep 5;
-
-_veh setPos[0,0,0];
-
+_vec setPos[0,0,0];
 sleep 1;
-
-_veh setDamage 1;
+_vec setDamage 1;
 //Destroy end
+
 _vma remoteExecCall ["deleteMarker", 2];
 
 d_sm_resolved = true;
