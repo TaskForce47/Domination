@@ -41,5 +41,5 @@ _clickableLink = parseText "<a href='https://phumberdroz.github.io/psychic-octo-
 "Instructions" hintC [
   "You did not load all the mods",
   "Please join our Teamspeak to get help with setting them up",
-  _clickableLink,
+  _clickableLink
 ];
