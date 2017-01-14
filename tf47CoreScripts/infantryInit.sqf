@@ -44,9 +44,9 @@ if(isMultiplayer) then {
 				_null = [_unit,_missingaddons] call tf47_fnc_showmissingaddonsdiag;
 
 				sleep 30;
-				//endmission "End6";
+				endmission "End6";
 			};
-		}
+		};
 
 		// Send Player Data to Database
 		["tf47_loginlog", player] call CBA_fnc_globalEvent;
