@@ -29,7 +29,7 @@ _unit setVariable ["ACE_STAMINA_CLASS", _infantryStaminaClass, true];
 
 if(isMultiplayer) then {
 	if (_unit == player) then {
-		if (_neededaddons) then {
+		if (count (_neededaddons)) then {
 			_missingaddons = [];
 			{
 					if (activatedAddons find _x == -1) then {
