@@ -43,9 +43,12 @@ if(isMultiplayer) then {
 
 				_null = [_unit,_missingaddons] call tf47_fnc_showmissingaddonsdiag;
 
-				diag_log "TF47 ---- LOG ---- MISSING ADDONS ---- START"
-				diag_log _missingaddons
-				diag_log "TF47 ---- LOG ---- MISSING ADDONS ---- END"
+				diag_log "TF47 ---- LOG ---- MISSING ADDONS ---- START";
+				diag_log _missingaddons;
+				diag_log "TF47 ---- LOG ---- MISSING ADDONS ---- END";
+				sleep 10;
+				_null = [_unit,_missingaddons] call tf47_fnc_showmissingaddonsdiag;
+
 				sleep 30;
 				endmission "End6";
 			};
