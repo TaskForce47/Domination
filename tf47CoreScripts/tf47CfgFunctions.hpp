@@ -11,7 +11,7 @@
 		//};
 		class CoreScripts {
 			file = "tf47CoreScripts";
-			class showmissingaddonsdiag{recompile = 1;};
+			class showmissingaddonsdiag;
 		};
 		class Whitelist {
 			file = "tf47CoreScripts";
