@@ -42,7 +42,7 @@ if(isMultiplayer) then {
 				_unit enableSimulation false;
 
 				_null = [_unit,_missingaddons] call tf47_fnc_showmissingaddonsdiag;
-
+				diag_log _missingaddons
 				sleep 30;
 				endmission "End6";
 			};
