@@ -31,7 +31,7 @@ _mission  = missionName;
 _player = name _unit;
 titleText ["Join our Teamspeak: ts.armasim.de", "BLACK", 1];
 
-_clickableLink = parseText "<a href='https://phumberdroz.github.io/psychic-octo-rotary-everything/'>ts.armasim.de</a>";
+_clickableLink = parseText "<a href='https://phumberdroz.github.io/psychic-octo-rotary-everything/'>ts.armasim.de (click here)</a>";
 "Instructions" hintC [
   "You did not load all the mods",
   "Please join our Teamspeak to get help with setting them up",
