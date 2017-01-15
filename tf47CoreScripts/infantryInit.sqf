@@ -29,31 +29,6 @@ _unit setVariable ["ACE_STAMINA_CLASS", _infantryStaminaClass, true];
 
 if(isMultiplayer) then {
 	if (_unit == player) then {
-		if (!isnil "_neededaddons") then {
-			_missingaddons = [];
-			{
-					if (activatedAddons find _x == -1) then {
-						_missingaddons pushBack _x;
-					};
-			} forEach _neededaddons;
-
-			if ((count _missingaddons) > 0) then {
-				_unit setPos [10,10,100000];
-				_unit enableSimulation false;
-
-				_null = [_unit,_missingaddons] call tf47_fnc_showmissingaddonsdiag;
-
-				diag_log "TF47 ---- LOG ---- MISSING ADDONS ---- START";
-				diag_log _missingaddons;
-				diag_log "TF47 ---- LOG ---- MISSING ADDONS ---- END";
-				sleep 10;
-				_null = [_unit,_missingaddons] call tf47_fnc_showmissingaddonsdiag;
-
-				sleep 30;
-				endmission "End6";
-			};
-		};
-
 		// Send Player Data to Database
 		["tf47_loginlog", player] call CBA_fnc_globalEvent;
 
