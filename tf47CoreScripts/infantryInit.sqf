@@ -29,7 +29,7 @@ _unit setVariable ["ACE_STAMINA_CLASS", _infantryStaminaClass, true];
 
 if(isMultiplayer) then {
 	if (_unit == player) then {
-		/*if (!isnil "_neededaddons") then {
+		if (!isnil "_neededaddons") then {
 			_missingaddons = [];
 			{
 					if (activatedAddons find _x == -1) then {
@@ -46,7 +46,7 @@ if(isMultiplayer) then {
 				sleep 30;
 				endmission "End6";
 			};
-		};*/
+		};
 
 		// Send Player Data to Database
 		["tf47_loginlog", player] call CBA_fnc_globalEvent;

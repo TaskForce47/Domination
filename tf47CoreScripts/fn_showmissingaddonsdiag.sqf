@@ -29,15 +29,9 @@ _missing = _this select 1;
 _map = worldname;
 _mission  = missionName;
 _player = name _unit;
-with uiNamespace do {
+titleText ["Join our Teamspeak: ts.armasim.de", "BLACK", 1];
 
-  html = findDisplay 620002 ctrlCreate ["RscHTML", -1];
-  html ctrlSetBackgroundColor [0,0,0,1];
-  html ctrlSetPosition [-0.7125,-0.412,2.425,1.82];
-  html ctrlCommit 0;
-};
 _clickableLink = parseText "<a href='https://phumberdroz.github.io/psychic-octo-rotary-everything/'>ts.armasim.de</a>";
-
 "Instructions" hintC [
   "You did not load all the mods",
   "Please join our Teamspeak to get help with setting them up",
