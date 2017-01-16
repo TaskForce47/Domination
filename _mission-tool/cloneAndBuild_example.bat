@@ -1,7 +1,7 @@
 @echo off
 
 set GITSH="C:\Program Files\Git\bin\sh.exe"
-set GIT_REPO="https://github.com/christian2526/Domination-3-Lingor"
+set GIT_REPO="https://github.com/TaskForce47/Domination-Lingor"
 set MISSIONFOLDER="Domination.Lingor3"
 set FINAL_PBO="%MISSIONFOLDER%.pbo"
 
