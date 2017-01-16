@@ -260,7 +260,10 @@
 			"tf_rt1523g_big_rhs",
 			"tf_rt1523g_rhs",
 			"tf_rt1523g_sage",
-
+			"tfw_dd",
+			"tfw_whip",
+			"tfw_blade",
+			"tfw_rf3080Item",
 			"RHS_M2_Gun_Bag",
 			"RHS_M2_Tripod_Bag",
 			"rhs_M252_Gun_Bag",
