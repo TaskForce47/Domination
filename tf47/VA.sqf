@@ -484,6 +484,7 @@
 			"rhs_8point_marpatd",
 			"rhs_8point_marpatwd",
 			"tf47_beret",
+			"H_Cap_tan_specops_US",
 
 			//GOOGLES
 			"rhs_googles_yellow",
