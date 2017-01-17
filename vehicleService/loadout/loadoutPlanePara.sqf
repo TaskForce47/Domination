@@ -4,6 +4,7 @@ _veh setVariable ["loadoutName", "Paratrooper", true];
 clearItemCargoGlobal _veh;
 clearWeaponCargoGlobal _veh;
 clearMagazineCargoGlobal _veh;
+clearBackpackCargoGlobal _veh;
 
 //Grenades
 _veh addMagazineCargoGlobal ["SmokeShell",10];

@@ -4,6 +4,7 @@ _veh setVariable ["loadoutName", "Medical Loadout", true];
 clearItemCargoGlobal _veh;
 clearWeaponCargoGlobal _veh;
 clearMagazineCargoGlobal _veh;
+clearBackpackCargoGlobal _veh;
 
 //Medic
 _veh addItemCargoGlobal ["ACE_fieldDressing",15];
