@@ -15,7 +15,7 @@ _veh addMagazineCargoGlobal ["SmokeShellRed",5];
 _veh addMagazineCargoGlobal ["SmokeShell",10];
 //_veh addMagazineCargoGlobal["Medikit",1];
 
-_veh addBackpackCargoGlobal ["BIS_Steerable_Parachute",10];
+_veh addBackpackCargoGlobal ["B_Parachute10];
 _veh addWeaponCargoGlobal ["rhs_weap_m4_carryhandle",3];
 _veh addMagazineCargoGlobal ["rhs_mag_30Rnd_556x45_Mk318_Stanag",20];
 _veh addWeaponCargoGlobal ["rhs_weap_fim92", 1];

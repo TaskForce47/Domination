@@ -32,7 +32,7 @@ _veh addMagazineCargoGlobal ["SmokeShellGreen",10];
 _veh addMagazineCargoGlobal ["SmokeShellRed",10];
 _veh addMagazineCargoGlobal ["SmokeShellBLue",5];
 
-_veh addBackpackCargoGlobal ["BIS_Steerable_Parachute",10];
+_veh addBackpackCargoGlobal ["B_Parachute10];
 
 // Radios
 

@@ -27,7 +27,7 @@ _veh addItemCargoGlobal ["ACE_Flashlight_XL50",4];
 _veh addWeaponCargoGlobal ["ACE_Vector",1];
 _veh addItemCargoGlobal ["B_UavTerminal",1];
 
-_veh addBackpackCargoGlobal ["BIS_Steerable_Parachute",10];
+_veh addBackpackCargoGlobal ["B_Parachute10];
 
 
 _veh addItemCargoGlobal ["ACE_NVG_Gen1",4];
