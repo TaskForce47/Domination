@@ -97,6 +97,9 @@
 			"rhs_weap_mk18_KAC_bk",
 			"rhs_weap_mk18_KAC",
 			"rhs_weap_mk18_KAC_wd",
+			"rhs_weap_m40a5",
+			"rhs_weap_m40a5_d",
+			"rhs_weap_m40a5_wd",
 			"rhsusf_weap_MP7A1_base_f",
 			"ACE_Vector"
 
@@ -178,7 +181,9 @@
 			"rhsusf_mag_40Rnd_46x30_FMJ",
 			"rhsusf_mag_40Rnd_46x30_JHP",
 			"rhsusf_mag_40Rnd_46x30_AP",
-
+			"rhsusf_10Rnd_762x51_m118_special_Mag",
+			"rhsusf_10Rnd_762x51_m993_Mag",
+			"rhsusf_10Rnd_762x51_m62_Mag",
 			//ULG Ammo
 			"rhs_mag_M441_HE",
 			"rhs_mag_M433_HEDP",
@@ -838,7 +843,9 @@
 			"rhsusf_acc_grip2_tan",
 			"rhsusf_acc_grip3",
 			"rhsusf_acc_grip3_tan",
-
+			"rhsusf_acc_ACOG_RMR",
+			"rhsusf_acc_ACOG_d",
+			"rhsusf_acc_ACOG_wd",
 			"rhsusf_acc_anpeq15",
 			"rhsusf_acc_anpeq15_light",
 			"rhsusf_acc_anpeq15_bk",
@@ -853,8 +860,14 @@
 			"rhsusf_acc_wmx",
 			"rhsusf_acc_anpeq15A",
 			"rhsusf_acc_SFMB556",
+			"rhsusf_acc_M8541",
+			"rhsusf_acc_M8541_low",
+			"rhsusf_acc_M8541_low_d",
+			"rhsusf_acc_ACOG_MDO",
+			"rhsusf_acc_M8541_low_wd",
 			"rhsusf_acc_SF3P556",
 			"rhsusf_acc_harris_bipod",
+			"rhsusf_acc_harris_swivel",
 			"rhsusf_acc_SR25S",
 			"rhsusf_acc_compm4",
 			"rhsusf_acc_anpvs27",
