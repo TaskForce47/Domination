@@ -45,7 +45,7 @@ for "_nr" from 0 to 1 do {
 			};
 
 			{
-    		_x linkItem "rhs_1PN138"
+    		_x linkItem "rhs_1PN138";
 			} forEach units group _newgroup;
 			_ret_grps pushBack _newgroup;
 			d_x_sm_rem_ar append _units;
