@@ -144,7 +144,7 @@
 			"rhsusf_mag_17Rnd_9x19_FMJ",
 			"rhsusf_mag_15Rnd_9x19_JHP",
 			"rhsusf_mag_15Rnd_9x19_FMJ",
-			
+
 			//RIFLE AMMO
 			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
 			"rhs_mag_30Rnd_556x45_Mk262_Stanag",
@@ -865,6 +865,7 @@
 			"rhsusf_acc_M8541_low",
 			"rhsusf_acc_M8541_low_d",
 			"rhsusf_acc_ACOG_MDO",
+			"rhsusf_acc_omega9k",
 			"rhsusf_acc_M8541_low_wd",
 			"rhsusf_acc_rotex_mp7",
 			"rhsusf_acc_SF3P556",
