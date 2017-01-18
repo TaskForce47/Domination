@@ -49,7 +49,7 @@ if (d_sub_kill_points != 0) then {
 
 if (d_GrasAtStart == 1) then {setTerrainGrid 50};
 tf_TimeOfDay=floor random [0,12,23];
-if (isServer) then {tf_TimeOfDay};
+if (isServer) then {skipTime tf_TimeOfDay};
 
 if (isServer || {!isDedicated && {!hasInterface}}) then {
 	// first element (array. for example: [2,1]): number of vehicle groups that will get spawned, the first number is the max number that will get spawned,
