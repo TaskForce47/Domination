@@ -50,6 +50,7 @@
 			"rhs_weap_m249_pip_L_para",
 			"rhs_weap_m249_pip_L_vfg",
 			"rhs_weap_m249_pip_S",
+			"rhsusf_weap_MP7A2",
 			"rhs_weap_m249_pip_S_para",
 			"rhs_weap_m249_pip_S_vfg",
 			"rhs_weap_m27iar",
@@ -143,7 +144,7 @@
 			"rhsusf_mag_17Rnd_9x19_FMJ",
 			"rhsusf_mag_15Rnd_9x19_JHP",
 			"rhsusf_mag_15Rnd_9x19_FMJ",
-
+			
 			//RIFLE AMMO
 			"rhs_mag_30Rnd_556x45_Mk318_Stanag",
 			"rhs_mag_30Rnd_556x45_Mk262_Stanag",
@@ -865,6 +866,7 @@
 			"rhsusf_acc_M8541_low_d",
 			"rhsusf_acc_ACOG_MDO",
 			"rhsusf_acc_M8541_low_wd",
+			"rhsusf_acc_rotex_mp7",
 			"rhsusf_acc_SF3P556",
 			"rhsusf_acc_harris_bipod",
 			"rhsusf_acc_harris_swivel",
@@ -883,6 +885,7 @@
 			"rhsusf_acc_M2010S",
 			"rhsusf_acc_premier_low",
 			"rhsusf_acc_premier_anpvs27",
+			"rhsusf_acc_anpas13gv1",
 			"rhsusf_acc_premier",
 			"rhsusf_acc_SpecterDR",
 			"rhsusf_acc_SpecterDR_OD",
