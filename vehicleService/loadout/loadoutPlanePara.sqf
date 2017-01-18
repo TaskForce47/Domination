@@ -21,7 +21,7 @@ _veh addItemCargoGlobal ["ACE_Altimeter",10];
 //Backpack
 _veh addBackpackCargoGlobal ["ACE_NonSteerableParachute",10];
 _veh addBackpackCargoGlobal ["ACE_ReserveParachute",10];
-_veh addBackpackCargoGlobal ["B_Parachute10];
+_veh addBackpackCargoGlobal ["B_Parachute",10];
 
 // Radios
 
