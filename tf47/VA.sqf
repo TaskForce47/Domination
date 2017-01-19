@@ -895,6 +895,11 @@
 			"rhsusf_acc_EOTECH",
 			"rhsusf_acc_eotech_xps3",
 
+
+			"tfw_dd",
+			"tfw_whip",
+			"tfw_blade",
+			"tfw_rf3080Item",
 			//ATTACHMENTS
 			"tf47_optic_m3maaws",
 			"tf47_optic_smaw"

@@ -8,7 +8,7 @@ class EditorData
 	toggles=525;
 	class ItemIDProvider
 	{
-		nextID=1494;
+		nextID=1495;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=444;
+		nextID=476;
 	};
 	class Camera
 	{
-		pos[]={2994.6758,34.082207,6480.3804};
-		dir[]={0.034486581,-0.97747189,-0.20825417};
-		up[]={0.15969501,0.21100789,-0.964351};
-		aside[]={-0.98656917,-1.3069803e-007,-0.16337478};
+		pos[]={2981.7661,34.645546,6506.8608};
+		dir[]={-0.21549745,-0.63761598,0.73970932};
+		up[]={-0.17836104,0.77028602,0.61224896};
+		aside[]={0.96015984,-2.5960617e-008,0.27971727};
 	};
 };
 binarizationWanted=0;
@@ -529,7 +529,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=652;
+		items=653;
 		class Item0
 		{
 			dataType="Marker";
@@ -4721,7 +4721,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};
@@ -4816,7 +4816,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=3;
 						};
 					};
 				};
@@ -4854,7 +4854,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=3;
+							value=2;
 						};
 					};
 				};
@@ -11506,7 +11506,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3018.5,14.434323,6613.5};
+				position[]={3018.875,14.434323,6614.625};
 				angles[]={0,0.75213772,0};
 			};
 			side="Empty";
@@ -31102,6 +31102,135 @@ class Mission
 			id=1493;
 			type="Land_Lamp_Small_EP1";
 			atlOffset=6.573328;
+		};
+		class Item652
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={174.72501,0.8024807,6221.7192};
+			};
+			id=1494;
+			type="ACE_ModuleMap";
+			atlOffset=18.052;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ACE_ModuleMap_MapShake";
+					expression="_this setVariable ['MapShake',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ACE_ModuleMap_MapShowCursorCoordinates";
+					expression="_this setVariable ['MapShowCursorCoordinates',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ACE_ModuleMap_DefaultChannel";
+					expression="_this setVariable ['DefaultChannel',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ACE_ModuleMap_MapIllumination";
+					expression="_this setVariable ['MapIllumination',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ACE_ModuleMap_MapGlow";
+					expression="_this setVariable ['MapGlow',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ACE_ModuleMap_MapLimitZoom";
+					expression="_this setVariable ['MapLimitZoom',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=6;
+			};
 		};
 	};
 	class Connections
