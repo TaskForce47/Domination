@@ -501,6 +501,12 @@ class ScenarioData
 	author="Chris";
 	overviewText="{MISSIONINFO}";
 	onLoadMission="{MISSIONINFO}";
+	wreckRemovalMaxTime=3600;
+	corpseManagerMode=1;
+	corpseLimit=50;
+	corpseRemovalMinTime=300;
+	corpseRemovalMaxTime=1800;
+	minPlayerDistance=1000;
 };
 class Mission
 {
