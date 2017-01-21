@@ -90,9 +90,8 @@ if(_initialdelay <= 0) then {
 	};
 
 	// Trigger OnSpawn Handler
-	[_unit, _licencetype] execVM format["%1vehicleOnSpawn.sqf", _pathToScripts];
 };
-
+[_unit, _licencetype] execVM format["%1vehicleOnSpawn.sqf", _pathToScripts];
 _unitname = vehicleVarName _unit;
 _hasname = false;
 if (isNil _unitname) then {_hasname = false;} else {_hasname = true;};

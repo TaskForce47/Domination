@@ -33,7 +33,6 @@ clearItemCargoGlobal _unit;
 clearWeaponCargoGlobal _unit;
 clearMagazineCargoGlobal _unit;
 clearBackpackCargoGlobal _unit;
-
 // Enter/Exit Handling Scripts
 [[_unit, _licenceType], "tf47_fnc_addGetInEvent", true, true] spawn BIS_fnc_MP;
 [[_unit, _licenceType], "tf47_fnc_addGetOutEvent", true, true] spawn BIS_fnc_MP;
