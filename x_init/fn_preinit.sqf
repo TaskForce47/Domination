@@ -645,7 +645,7 @@ d_cas_plane =
 	d_sm_hangar = "Land_Hangar_F";
 	d_sm_tent = "Land_TentA_F";
 
-	d_sm_land_tankbig = "Land_dp_bigTank_F";
+	d_sm_land_tankbig = "Land_Ind_TankSmall";
 	d_sm_land_transformer = "Land_dp_transformer_F";
 	d_sm_barracks = "Land_i_Barracks_V2_F";
 	d_sm_land_tanksmall = "Land_dp_smallTank_F";
