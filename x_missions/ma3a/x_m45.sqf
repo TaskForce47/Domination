@@ -3,7 +3,7 @@
 #define THIS_FILE "x_m45.sqf"
 #include "..\..\x_setup.sqf"
 
-d_x_sm_pos = "d_sm_45" call d_fnc_smmapos; // index: 45,   Destroy fuel tanks at power plant near Cafe Prada
+d_x_sm_pos = "d_sm_45" call d_fnc_smmapos; // index: 45,   Destroy anti air radar near Cafe Prada
 d_x_sm_type = "normal"; // "convoy"
 
 if (!isDedicated && {!d_IS_HC_CLIENT}) then {
@@ -13,11 +13,12 @@ if (!isDedicated && {!d_IS_HC_CLIENT}) then {
 
 if (call d_fnc_checkSHC) then {
 	private _poss = d_x_sm_pos select 0;
-	private _objs = _poss nearObjects [d_sm_land_tankbig, 50];
+	_vehicle = "76n6ClamShell" createVehicle (d_x_sm_pos select 0);
+	private _objs = _poss nearObjects ["76n6ClamShell", 150];
 	//private _objs = nearestObjects [_poss, [d_sm_land_tankbig], 50];
 	sleep 2.123;
 	["specops", 2, "allmen", 1, _poss, 200, true] spawn d_fnc_CreateInf;
 	sleep 2.221;
-	["aa", 1, "tracked_apc", 1, "tank", 1, _poss, 1, 400, true] spawn d_fnc_CreateArmor;
+	["aa", 2, "tracked_apc", 1, "tank", 1, _poss, 1, 400, true] spawn d_fnc_CreateArmor;
 	[_objs select 0, _objs select 1, objNull] spawn d_fnc_sidefactory;
 };

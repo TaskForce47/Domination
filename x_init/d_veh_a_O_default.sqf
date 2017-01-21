@@ -1,4 +1,4 @@
-["rhsgref_BRDM2_ins"],
+["rhsgref_ins_bmp2k","rhsgref_ins_bmp2d","rhsgref_ins_bmp1p","rhsgref_ins_bmd1"],
 ["rhsgref_ins_bmp2k","rhsgref_ins_bmp2d","rhsgref_ins_bmp1p","rhsgref_ins_bmd1"],
 ["rhsgref_ins_btr60","rhsgref_ins_btr70"],
 ["rhsgref_ins_zsu234"],
