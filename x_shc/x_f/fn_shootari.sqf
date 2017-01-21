@@ -15,24 +15,19 @@ private _type = call {
 	_height = 1; _which select 1
 };
 
-private _num_shells = if (_kind in [0, 1]) then {
-#ifndef __TT__
-	if (d_searchintel select 4 == 1) then {
-#else
-	if (floor random 3 == 0) then {
-#endif
-		_pos_enemy remoteExecCall ["d_fnc_doarti", [0, -2] select isDedicated];
-	};
-	3 + (ceil random 3)
-} else {
-	1
-}; 
+private _num_shells = (ceil random 5);
 
 sleep 9.25 + (random 8);
 for "_i" from 0 to (_num_shells - 1) do {
-	private _npos = _pos_enemy getPos [random 30, floor random 360];
-	_npos set [2, _height];
-	private _shell = createVehicle [_type, _npos, [], 0, "NONE"];
-	_shell setVelocity [0, 0, -150];
-	 sleep 0.923 + ((ceil random 10) / 10);
+	private _npos = _pos_enemy getPos [ floor random [20,30,50], floor random 360];
+	_class = "Sh_82mm_AMOS";
+	_dummy = "LaserTargetCBase" createVehicle _npos;
+	_dummy enableSimulation false; _dummy hideObject true;
+	_dummy setVariable ["type",_class];
+	[_dummy,nil,true] spawn BIS_fnc_moduleProjectile;
+	[_dummy] spawn {
+	 sleep 10;
+	 deleteVehicle (_this select 0);
+	};
+	sleep 0.923 + ((ceil random 10) / 10);
 };
