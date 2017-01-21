@@ -9,7 +9,7 @@ params ["_posi_array", "_dirs"];
 #ifdef __TT__
 d_sm_points_blufor = 0;
 d_sm_points_opfor = 0;
-#endifF
+#endif
 
 private _tanks_ar = [];
 for "_ii" from 1 to (count _posi_array) - 1 do {
