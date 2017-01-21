@@ -189,5 +189,3 @@ if (_player == player) then {
 		};
 	};
 };
-
-_vehicle enableSimulationGlobal true;
