@@ -190,6 +190,4 @@ if (_player == player) then {
 	};
 };
 
-if (!_kickout) then {
-	_vehicle enableSimulationGlobal true;
-}
+_vehicle enableSimulationGlobal true;
