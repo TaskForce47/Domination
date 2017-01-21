@@ -521,7 +521,7 @@ if (!d_tt_tanoa) then {
 	];
 
 #ifdef __ALTIS__
-d_arti_observer_E = [["rhsgref_ins_g_commander"]];
+d_arti_observer_E = [["rhs_vdv_recon_rifleman_l"]];
 #endif
 #ifdef __CUP_CHERNARUS__
 d_arti_observer_E = [["O_recon_JTAC_F"]];
