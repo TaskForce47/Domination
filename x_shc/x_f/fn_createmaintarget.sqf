@@ -151,6 +151,7 @@ if (!d_no_more_observers) then {
 		private _observer = ([_xpos, _unit_array, _agrp] call d_fnc_makemgroup) select 0;
 		[_agrp, _xpos, [_trg_center, _radius], [5, 20, 40], "", 0] spawn d_fnc_MakePatrolWPX;
 		_agrp setVariable ["d_PATR", true];
+		_observer addBackPack "tfw_ilbe_a_coy";
 		_observer addEventHandler ["killed", {d_nr_observers = d_nr_observers - 1;
 			if (d_nr_observers == 0) then {
 #ifndef __TT__
