@@ -21,5 +21,5 @@ if (call d_fnc_checkSHC) then {
 	sleep 2.221;
 	["aa", 2, "tracked_apc", 1, "tank", 1, _poss, 1, 400, true] spawn d_fnc_CreateArmor;
 	sleep 5.123;
-	[_objs select 0, _objs select 1, _objs select 2] spawn d_fnc_sidefactoryd;
+	[_objs select 0, _objs select 1, _objs select 2] spawn d_fnc_sidefactory;
 };
