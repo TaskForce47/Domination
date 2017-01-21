@@ -120,14 +120,14 @@ for "_i" from 1 to _nrcamps do {
 	_wf setVariable ["d_STALL", false, true];
 	_wf setVariable ["d_TARGET_MID_POS", _trg_center];
 	_fwfpos = getPosATL _wf;
-	_fwfpos set [2, 4.3];
+	_fwfpos set [2, 2];
 	private _flagPole = createVehicle [d_flag_pole, _fwfpos, [], 0, "NONE"];
 	_flagPole setPos _fwfpos;
 	_wf setVariable ["d_FLAG", _flagPole, true];
 	_maname = format["d_camp%1",_i];
 	[_maname, _poss,"ICON","ColorBlack",[0.5,0.5],"",0,d_strongpointmarker] remoteExecCall ["d_fnc_CreateMarkerGlobal", 2];
 	_flagPole setFlagTexture (call d_fnc_getenemyflagtex);
-	
+
 	_wf addEventHandler ["HandleDamage", {0}];
 	//[_wf, _flagPole] call d_fnc_HandleCamps2;
 #ifndef __TT__
@@ -136,7 +136,7 @@ for "_i" from 1 to _nrcamps do {
 	[_wf, _flagPole] execFSM "fsms\fn_HandleCampsTT2.fsm";
 #endif
 	sleep 0.5;
-	
+
 	private _newgroup = [d_side_enemy] call d_fnc_creategroup;
 	[_poss, ["specops", d_enemy_side_short] call d_fnc_getunitlistm, _newgroup] spawn d_fnc_makemgroup;
 	sleep 1.0112;
