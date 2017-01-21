@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=484;
+		nextID=492;
 	};
 	class Camera
 	{
-		pos[]={2981.7661,34.645546,6506.8608};
+		pos[]={2928.9333,34.645546,6567.9248};
 		dir[]={-0.21549745,-0.63761598,0.73970932};
 		up[]={-0.17836104,0.77028602,0.61224896};
 		aside[]={0.96015984,-2.5960617e-008,0.27971727};
@@ -1339,7 +1339,6 @@ class Mission
 			type="Empty";
 			angle=0.13399093;
 			id=115;
-			atlOffset=2.8610229e-005;
 		};
 		class Item85
 		{
@@ -2403,7 +2402,6 @@ class Mission
 			name="d_target_21";
 			id=294;
 			type="LocationCityCapital_F";
-			atlOffset=5.1498413e-005;
 		};
 		class Item187
 		{
@@ -6750,20 +6748,20 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2906.5,1.7446525,6598};
-				angles[]={0,4.2723298,0};
+				position[]={2906.5,1.7448442,6598};
+				angles[]={0,4.2723217,0};
 			};
 			side="Empty";
 			class Attributes
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="boot1";
 			};
 			id=488;
 			type="B_Boat_Transport_01_F";
-			atlOffset=5.2198081;
+			atlOffset=5.2199998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6801,7 +6799,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="boot2";
 			};
 			id=489;
@@ -21065,7 +21063,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="boot3";
 			};
 			id=1004;
@@ -21108,7 +21106,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 5400, """", ""hd_dot"", ""ColorBlue"", WEST, """", 0, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 				name="boot4";
 			};
 			id=1005;
@@ -25037,7 +25035,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 10800, ""SHARK-02"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; this enableSimulationGlobal false;";
+				init="veh = [this, 300, 10800, ""SHARK-02"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; ";
 				name="mark52";
 			};
 			id=487;
@@ -25099,7 +25097,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="veh = [this, 300, 5400, ""SHARK-01"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false; ";
+				init="veh = [this, 300, 5400, ""SHARK-01"", ""b_naval"", ""ColorBlue"", WEST, """", 20, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf""; ";
 				name="mark51";
 			};
 			id=486;
@@ -25399,7 +25397,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="veh = [this, 300, 7200, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 7200, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=1263;
 			type="I_C_Boat_Transport_02_F";
@@ -25439,7 +25437,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="veh = [this, 300, 7200, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";this enableSimulationGlobal false;";
+				init="veh = [this, 300, 7200, """", ""hd_dot"", ""ColorBlue"", WEST, """", 8, 0, 0] execVM ""tf47CoreScripts\vehicleRespawn.sqf"";";
 			};
 			id=1264;
 			type="I_C_Boat_Transport_02_F";
