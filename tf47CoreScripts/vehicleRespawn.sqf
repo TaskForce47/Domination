@@ -241,7 +241,6 @@ while {_run} do
 		_unit setVariable ["ticketCost", _ticketcost, true];
 		_unit setVariable ["LockOnRespawn", _lock, true];
 		_unit lock _lock;
-		_unit enableSimulationGlobal false;
 		[_unit] execVM format["%1mapMarkerUpdate.sqf", _pathToScripts];
 		if (_markertext != "") then {
 			//_unit setVehicleInit format ["[%1, '%2', '%3', %4, '%5', %6] execVM '%7unitMarkerInit.sqf';", "this", _markertext, _markertype, _markerside, _markercolor, _markerdespawn, _pathToScripts];
