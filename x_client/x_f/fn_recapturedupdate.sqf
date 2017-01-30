@@ -24,6 +24,6 @@ switch (param [1]) do {
 		];
 		/*****ADD*TICKETS*TO*ACTUAL*TICKET*AMOUNT*BY*TASKFORCE47*******/
 		["tf47_changetickets", [WEST, 2, 5, format ["%1 recaptured",_tgt_name]]] call CBA_fnc_globalEvent;
-		/**************************************************************/
+		/***************************************************************/
 	};
 };
