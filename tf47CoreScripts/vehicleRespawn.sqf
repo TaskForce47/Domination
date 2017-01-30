@@ -240,6 +240,7 @@ while {_run} do
 		_unit setVariable ["respawnDelay", _delay, true];
 		_unit setVariable ["ticketCost", _ticketcost, true];
 		_unit setVariable ["LockOnRespawn", _lock, true];
+		_unit setVariable ["RespawnSystemActive", true, true];
 		_unit lock _lock;
 		[_unit] execVM format["%1mapMarkerUpdate.sqf", _pathToScripts];
 		if (_markertext != "") then {
