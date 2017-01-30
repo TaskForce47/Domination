@@ -21,9 +21,10 @@ private _oldpos = getPosAsl _vec;
 while {alive _vec && {!_reached_base}} do {
 	call d_fnc_mpcheck;
 #ifndef __TT__
-	if (_vec distance2D d_FLAG_BASE < 100 && getpos _veh select 2 < 3) exitWith {_reached_base = true};
+	if (_vec distance2D BOX < 3 && getpos _vec select 2 < 3) exitWith {_reached_base = true; _winner = 2;};
 #else
-	if (_vec distance2D d_WFLAG_BASE < 100) exitWith {
+/*
+	if (_vec distance2D BOX < 100) exitWith {
 		_reached_base = true;
 		_winner = 2;
 	};
@@ -31,6 +32,7 @@ while {alive _vec && {!_reached_base}} do {
 		_reached_base = true;
 		_winner = 1;
 	};
+	*/
 #endif
 	if (_oldpos distance2D _vec > 10) then {
 		_oldpos = getPosAsl _vec;
