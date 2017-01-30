@@ -22,5 +22,8 @@ switch (param [1]) do {
 			parseText("<t color='#f00000ff' size='2'>" + (localize "STR_DOM_MISSIONSTRING_662") + "</t>"), lineBreak,
 			parseText("<t size='1'>" + format [localize "STR_DOM_MISSIONSTRING_663", _tgt_name] + "</t>")
 		];
+		/*****ADD*TICKETS*TO*ACTUAL*TICKET*AMOUNT*BY*TASKFORCE47*******/
+		["tf47_changetickets", [WEST, 2, 5, format ["%1 recaptured",_tgt_name]]] call CBA_fnc_globalEvent;
+		/**************************************************************/
 	};
 };
