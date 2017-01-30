@@ -66,11 +66,7 @@ _vec setFuel 0;
 
 // Initiate Respawn
 
-sleep 5;
-_vec setPos[0,0,0];
-sleep 1;
-_vec setDamage 1;
-//Destroy end
+deleteVehicle _vec;
 
 _vma remoteExecCall ["deleteMarker", 2];
 
