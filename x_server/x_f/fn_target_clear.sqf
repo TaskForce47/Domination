@@ -48,6 +48,9 @@ while {d_counterattack} do {sleep 3.123};
 if (_start_real) then {
 	d_kb_logic1 kbTell [d_kb_logic2, d_kb_topic_side, "CounterattackDefeated", "SIDE"];
 	sleep 2.321;
+	/*****ADD*TICKETS*TO*ACTUAL*TICKET*AMOUNT*BY*TASKFORCE47*******/
+	["tf47_changetickets", [WEST, 2, 5, "Counter Attack Defeated"]] call CBA_fnc_globalEvent;
+	/**************************************************************/
 };
 #endif
 
