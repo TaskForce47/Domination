@@ -8,7 +8,6 @@ if (hasInterface) then {
 	["InitializePlayer", [player]] call BIS_fnc_dynamicGroups;
 };
 
-
 if (!isnil "_neededaddons") then {
 	_missingaddons = [];
 	{
