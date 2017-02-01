@@ -37,4 +37,5 @@ if (!isnil "_neededaddons") then {
 };
 
 execVM "tasks.sqf";
+[] call tf47_battlemanager_fnc_initBattleManager;
 diag_log [diag_frameno, diag_ticktime, time, "MPF initPlayerLocal.sqf processed"];
