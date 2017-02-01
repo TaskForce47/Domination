@@ -11,6 +11,6 @@ private _return = [];
 	};
 }forEach _cfgs;
 if(count _return == 0)then{
-	{_return pushBack _x; false} count ["Recruits", "Light Infantry", "Reconnaissance", "Rotatory Wing", "Main Battle Tank", "Infantry Fighting Vehicle", "Fixed Wing"];
+	{_return pushBack _x; false} count ["Recruits", "Light Infantry", "Reconnaissance", "Rotatory Wing", "Main Battle Tank", "Infantry Fighting Vehicle", "Fixed Wing", "Mortar"];
 };
 _return;
