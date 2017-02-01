@@ -3,6 +3,7 @@ class cfgFunctions {
 	version = 3.0;
 	createShortcuts = 1;
 	#include "tf47CoreScripts\tf47CfgFunctions.hpp"	//Core Scripts by Task Force 47
+	#include "tf47\battlemanager\tf47_battlemanager_functions.hpp"
 	class Dom {
 		tag = "d";
 		class Dom_Client {
