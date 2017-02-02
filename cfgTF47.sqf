@@ -25,9 +25,6 @@ TF47_MISSIONINFO = "{MISSIONINFO}";
 
 _pathtoscripts = "tf47CoreScripts\";
 
-// _infantryStaminaClass = "US_Delta_Force_EP1";
-
-
 //Whitelist ID: 0=None 1=Air 2=Armor 3=CCT 4=Admin 5=ZEUS
 
 // --- DESPAWN PREVENTION MARKERS -------------------------------------------------------------------------------------------------------------------
