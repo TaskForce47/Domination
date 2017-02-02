@@ -75,14 +75,6 @@ _statusMarkerData = [
 ];
 _statusMarkers = [_statusMarkerData, []] call CBA_fnc_hashCreate;
 
-
-
-// --- LIFT RULES -----------------------------------------------------------------------------------------------------------------------------------
-//		see vehicleOnSpawn.sqf
-// _LiftHelicopters = ["seagull1","seagull2","pelican1"];
-// _NoLiftHelicopters = ["crow1", "crow2", "dustoff1", "griffin1", "goose1", "manticore1"];
-
-
 // --- No JUMP OUT VEH -----------------------------------------------------------------------------------------------------------------------------------
 //		see vehicleOnEnter.sqf
 _JumpOutHelicopters = ["uh601mev","uh602mev","uh1y1","uh1y2","uh1y3","ch531","lb1","lb2"];
