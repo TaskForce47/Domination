@@ -1264,3 +1264,4 @@ class ACE_Settings {
 			 force = 1;
 	 };
 };
+#include "tf47\battlemanager\tf47_battlemanager_defines.hpp"
