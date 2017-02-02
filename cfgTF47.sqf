@@ -110,10 +110,10 @@ _vehicleRestrictionData = [
 	["f22a1", 					[1, 1,	["fixwa11","fixwa12","fixwa13","fixwa14"], 													[]]],
 	["f22a2", 					[1, 1,	["fixwa11","fixwa12","fixwa13","fixwa14"], 													[]]],
 	//Tank
-	["tank1",					[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22"]]],
-	["tank2",					[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22"]]],
-	["bradley1",			[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22"]]],
-	["bradley2",			[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22"]]]
+	["tank1",					[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"]]],
+	["tank2",					[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"]]],
+	["bradley1",			[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"]]],
+	["bradley2",			[2, 2,	["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"], 													["armor13","armor23","mc5","armor11","armor12","armor21","armor22","armor14","armor24","armor34"]]]
 ];
 _vehicleRestrictions = [_vehicleRestrictionData, []] call CBA_fnc_hashCreate;
 
