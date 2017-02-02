@@ -37,4 +37,10 @@ if (!isnil "_neededaddons") then {
 };
 
 execVM "tasks.sqf";
+[] call tf47_battlemanager_fnc_initBattleManager;
+0 enableChannel [false, false]; //0 = Global
+1 enableChannel [false, false]; //1 = Side
+2 enableChannel [false, false]; //2 = Command
+3 enableChannel [false, false]; //3 = Group
+4 enableChannel [false, false]; //4 = Vehicle
 diag_log [diag_frameno, diag_ticktime, time, "MPF initPlayerLocal.sqf processed"];

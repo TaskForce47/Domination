@@ -25,9 +25,6 @@ TF47_MISSIONINFO = "{MISSIONINFO}";
 
 _pathtoscripts = "tf47CoreScripts\";
 
-// _infantryStaminaClass = "US_Delta_Force_EP1";
-
-
 //Whitelist ID: 0=None 1=Air 2=Armor 3=CCT 4=Admin 5=ZEUS
 
 // --- DESPAWN PREVENTION MARKERS -------------------------------------------------------------------------------------------------------------------
@@ -77,14 +74,6 @@ _statusMarkerData = [
 	["mark52",	["callsign_mark52",		"b_naval",		"ColorOrange",	"SHARK-02",														false]]
 ];
 _statusMarkers = [_statusMarkerData, []] call CBA_fnc_hashCreate;
-
-
-
-// --- LIFT RULES -----------------------------------------------------------------------------------------------------------------------------------
-//		see vehicleOnSpawn.sqf
-// _LiftHelicopters = ["seagull1","seagull2","pelican1"];
-// _NoLiftHelicopters = ["crow1", "crow2", "dustoff1", "griffin1", "goose1", "manticore1"];
-
 
 // --- No JUMP OUT VEH -----------------------------------------------------------------------------------------------------------------------------------
 //		see vehicleOnEnter.sqf
