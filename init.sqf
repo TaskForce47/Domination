@@ -46,4 +46,7 @@ execVM format ["%1serverEvents.sqf", _pathToScripts];
 // Special Markers
 execVM format ["%1mapMarkerInit.sqf", _pathToScripts];
 
+//include config for sa_towing written by Chris
+##include "tf47_towing_config.hpp";
+
 diag_log [diag_frameno, diag_ticktime, time, "Dom init.sqf processed"];
