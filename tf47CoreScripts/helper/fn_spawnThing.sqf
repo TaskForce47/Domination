@@ -12,7 +12,9 @@ _thingPos = [(_objectPos select 0) + sin(_objectDir)*1.5,(_objectPos select 1) +
 _near = _thingPos nearObjects ["thingX", 2];
 if(count _near > 0) then {
 	{
-		deleteVehicle _x;
+        if(typeOf _x != "Land_InfoStand_V1_F") then {
+            deleteVehicle _x;
+        };
 	} forEach _near;
 };
 
