@@ -28,6 +28,7 @@
 			class setFuel;
 			class lock;
 			class setVehicleVarName;
+            class spawnThing;
 		};
 	};
 
