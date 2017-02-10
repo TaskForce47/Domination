@@ -8,7 +8,7 @@ class EditorData
 	toggles=525;
 	class ItemIDProvider
 	{
-		nextID=1542;
+		nextID=1543;
 	};
 	class MarkerIDProvider
 	{
@@ -97,13 +97,13 @@ addons[]=
 	"CUP_WarfareBuildings",
 	"CUP_StandaloneTerrains_Core_Faction",
 	"A3_Supplies_F_Heli_Slingload",
-	"CUP_CAMP_Armory_Misc_Infostands"
+	"A3_Structures_F_Civ_InfoBoards"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=60;
+		items=59;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -497,11 +497,6 @@ class AddonsMetaData
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
-		};
-		class Item59
-		{
-			className="CUP_CAMP_Armory_Misc_Infostands";
-			name="CUP_CAMP_Armory_Misc_Infostands";
 		};
 	};
 };
@@ -31498,7 +31493,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2995.25,14.684705,6495.4941};
+				position[]={2995.25,14.679811,6495.4941};
 				angles[]={6.2730274,1.5924733,0};
 			};
 			side="Empty";
@@ -31508,8 +31503,8 @@ class Mission
 				name="boxSpawnSign";
 				disableSimulation=1;
 			};
-			id=1541;
-			type="Infostand_2_EP1";
+			id=1542;
+			type="Land_InfoStand_V1_F";
 			atlOffset=-9.5367432e-007;
 			class CustomAttributes
 			{
