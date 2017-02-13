@@ -99,6 +99,7 @@
 			"rhs_weap_m40a5_d",
 			"rhs_weap_m40a5_wd",
 			"rhsusf_weap_MP7A1_base_f",
+			"rhsusf_acc_rotex_mp7_desert",
 			"ACE_Vector"
 
 		],false, true] call xla_fnc_addVirtualWeaponCargo;
@@ -613,6 +614,8 @@
 			"rhs_googles_clear",
 			"rhs_googles_black",
 			"rhs_ess_black",
+			"G_Bandanna_blk",
+			"G_Bandanna_beast",
 			"G_Bandanna_tan",
 			"G_Bandanna_oli",
 			"G_Bandanna_khk",
@@ -622,6 +625,7 @@
 			//NVGs
 			"rhsusf_ANPVS_14",
 			"rhsusf_ANPVS_15",
+			"NVGoggles_OPFOR",
 			"rhsusf_Rhino",
 
 			//BINOCULARS
@@ -783,6 +787,7 @@
 			"rhsusf_acc_anpvs27",
 			"rhsusf_acc_LEUPOLDMK4",
 			"rhsusf_acc_LEUPOLDMK4_2",
+			"rhsusf_acc_LEUPOLDMK4_2_d",
 			"rhsusf_acc_ELCAN",
 			"rhsusf_acc_ELCAN_ard",
 			"rhsusf_acc_eotech_552",
