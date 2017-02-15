@@ -47,7 +47,6 @@
 			"rhs_weap_m249_pip_L_para",
 			"rhs_weap_m249_pip_L_vfg",
 			"rhs_weap_m249_pip_S",
-			"rhsusf_weap_MP7A2",
 			"rhs_weap_m249_pip_S_para",
 			"rhs_weap_m249_pip_S_vfg",
 			"rhs_weap_m27iar",
@@ -98,8 +97,8 @@
 			"rhs_weap_m40a5",
 			"rhs_weap_m40a5_d",
 			"rhs_weap_m40a5_wd",
-			"rhsusf_weap_MP7A1_base_f",
-			"rhsusf_acc_rotex_mp7_desert",
+			"rhsusf_weap_MP7A2",
+			"rhsusf_weap_MP7A2_desert",
 			"ACE_Vector"
 
 		],false, true] call xla_fnc_addVirtualWeaponCargo;
@@ -779,6 +778,7 @@
 			"rhsusf_acc_omega9k",
 			"rhsusf_acc_M8541_low_wd",
 			"rhsusf_acc_rotex_mp7",
+			"rhsusf_acc_rotex_mp7_desert",
 			"rhsusf_acc_SF3P556",
 			"rhsusf_acc_harris_bipod",
 			"rhsusf_acc_harris_swivel",
@@ -798,7 +798,7 @@
 			"rhsusf_acc_M2010S",
 			"rhsusf_acc_premier_low",
 			"rhsusf_acc_premier_anpvs27",
-			"rhsusf_acc_anpas13gv1",
+			//"rhsusf_acc_anpas13gv1",
 			"rhsusf_acc_premier",
 			"rhsusf_acc_SpecterDR",
 			"rhsusf_acc_SpecterDR_OD",
