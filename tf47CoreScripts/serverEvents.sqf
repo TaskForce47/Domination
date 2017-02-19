@@ -55,6 +55,26 @@ if (!isDedicated) then {
 
                 ["tf47_changetickets", [WEST, 5, _ticketCost, "", _uid, _playername]] call CBA_fnc_globalEvent;
         }];
+
+        player addMissionEventHandler ["HandleDisconnect",{
+          if ( (_this select 0) getVariable ["ace_isunconscious", false] )then {
+            private ["_infantryTickets"];
+            waitUntil { !isNil "cfgTF47" };
+            call cfgTF47;
+
+            _slotname = format["%1", _unit];
+            _playername = name _unit;
+            _playerSide = side _unit;
+
+            _comment = format ["Player: %1 (%2, %3)", _playername, _unit, _playerSide];
+            _ticketCost = [_infantryTickets, _slotname] call CBA_fnc_hashGet;
+
+            _diagcomment = format["%1, costs %2 tickets", _comment, _ticketCost];
+            ["tf47_diaglog", _diagcomment] call CBA_fnc_globalEvent;
+
+            ["tf47_changetickets", [WEST, 5, _ticketCost, "", _uid, _playername]] call CBA_fnc_globalEvent;
+            };
+        }];
 };
 
 // Make sure this is only running server-side...
