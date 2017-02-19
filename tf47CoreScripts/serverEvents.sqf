@@ -57,7 +57,7 @@ if (!isDedicated) then {
         }];
 
         player addMissionEventHandler ["HandleDisconnect",{
-          if ( (_this select 0) getVariable ["ace_isunconscious", false] )then {
+          if ( (_unit) getVariable ["ace_isunconscious", false] )then {
             private ["_infantryTickets"];
             waitUntil { !isNil "cfgTF47" };
             call cfgTF47;
