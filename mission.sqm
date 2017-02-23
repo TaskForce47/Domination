@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2989.364,20.493753,6495.5591};
-		dir[]={0.62128747,-0.76047093,0.18891653};
-		up[]={0.72757989,0.64937001,0.22123677};
-		aside[]={0.29092035,-1.5847036e-008,-0.95674962};
+		pos[]={2663.5315,33.025326,6837.3096};
+		dir[]={0.8605842,-0.43992743,-0.25708276};
+		up[]={0.42176369,0.89790028,-0.12599024};
+		aside[]={-0.28626159,-3.0035153e-008,-0.95825917};
 	};
 };
 binarizationWanted=0;
@@ -7151,7 +7151,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2970.5,16.680164,6623};
+						position[]={2970.5,16.680363,6623};
 						angles[]={0,4.6337967,0};
 					};
 					side="Empty";
@@ -7166,7 +7166,7 @@ class Mission
 					};
 					id=531;
 					type="RHS_UH60M";
-					atlOffset=-0.11419773;
+					atlOffset=-0.11400032;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7241,7 +7241,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=0;
+									value=1;
 								};
 							};
 						};
@@ -7253,7 +7253,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2968.717,16.680164,6648.0171};
+						position[]={2968.717,16.680363,6648.0171};
 						angles[]={0,4.6475148,0};
 					};
 					side="Empty";
@@ -7267,7 +7267,7 @@ class Mission
 					};
 					id=534;
 					type="RHS_UH60M";
-					atlOffset=-0.11419773;
+					atlOffset=-0.11400032;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7342,7 +7342,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=0;
+									value=1;
 								};
 							};
 						};
@@ -28248,7 +28248,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2629.5,9.7339687,6798};
+				position[]={2629.5,9.7339478,6798};
 				angles[]={0,0.13086478,0};
 			};
 			side="Empty";
@@ -28262,7 +28262,6 @@ class Mission
 			};
 			id=1407;
 			type="RHS_UH60M";
-			atlOffset=2.0980835e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28318,7 +28317,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -28399,7 +28398,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -28423,7 +28422,6 @@ class Mission
 			};
 			id=1410;
 			type="RHS_UH1Y";
-			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28479,7 +28477,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
