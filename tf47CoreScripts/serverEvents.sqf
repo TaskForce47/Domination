@@ -472,8 +472,6 @@ if (isServer) then {
           params ["_unit", "_id", "_uid","_name"];
           if (_unit getVariable ["ace_isunconscious", false] ) then {
             private ["_infantryTickets"];
-            waitUntil { !isNil "cfgTF47" };
-            call cfgTF47;
 
             _slotname = format["%1", _unit];
             _playername = name _unit;
