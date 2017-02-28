@@ -469,7 +469,8 @@ if (isServer) then {
         };
 
         addMissionEventHandler ["HandleDisconnect",{
-          if ( (_unit) getVariable ["ace_isunconscious", false] )then {
+          params ["_unit", "_id", "_uid","_name"];
+          if (_unit getVariable ["ace_isunconscious", false] ) then {
             private ["_infantryTickets"];
             waitUntil { !isNil "cfgTF47" };
             call cfgTF47;
