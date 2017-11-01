@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2663.5315,33.025326,6837.3096};
-		dir[]={0.8605842,-0.43992743,-0.25708276};
-		up[]={0.42176369,0.89790028,-0.12599024};
-		aside[]={-0.28626159,-3.0035153e-008,-0.95825917};
+		pos[]={3041.0706,114.59892,6387.627};
+		dir[]={-0.039732441,-0.46546412,-0.88425869};
+		up[]={-0.020900588,0.88498354,-0.46514204};
+		aside[]={-0.99907303,-5.665097e-007,0.044890665};
 	};
 };
 binarizationWanted=0;
@@ -10231,7 +10231,6 @@ class Mission
 			};
 			id=536;
 			type="RHS_MELB_MH6M";
-			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10291,7 +10290,26 @@ class Mission
 						};
 					};
 				};
-				nAttributes=3;
+				class Attribute3
+				{
+					property="MELB_NoFear";
+					expression="_this animate ['hide_NoFear',_value,true]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=4;
 			};
 		};
 		class Item283
