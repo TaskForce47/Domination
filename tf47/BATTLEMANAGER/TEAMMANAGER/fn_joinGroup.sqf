@@ -19,7 +19,7 @@ if(count units _grp >=	_maxCount)exitWith{systemChat "Group has reached maximum 
 [player]  joinSilent _grp;
 
 // copy properties of new group
-private _newType	=	_newLeader getVariable ["TF47_TEAMMANAGER_GROUP_TYPE","Recruits"];
+private _newType	=	(leader _grp) getVariable ["TF47_TEAMMANAGER_GROUP_TYPE","Recruits"];
 player setVariable ["TF47_TEAMMANAGER_GROUP_TYPE",_newType,true];
 
 private _newVehicle	=	(leader _grp) getVariable ["TF47_TEAMMANAGER_GROUP_SIM","Casual"];

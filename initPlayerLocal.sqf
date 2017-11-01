@@ -43,4 +43,16 @@ execVM "tasks.sqf";
 2 enableChannel [false, false]; //2 = Command
 3 enableChannel [false, false]; //3 = Group
 4 enableChannel [false, false]; //4 = Vehicle
+
+// Box Spawn
+boxSpawnSign addAction ["<t color='#00FF00'>Wheel</t>", "_this spawn tf47_fnc_spawnThing", ["ACE_Wheel",""]];
+boxSpawnSign addAction ["<t color='#00FF00'>Track</t>", "_this spawn tf47_fnc_spawnThing", ["ACE_Track",""]];
+boxSpawnSign addAction ["<t color='#00FF00'>Empty Box</t>", "_this spawn tf47_fnc_spawnThing", ["Box_NATO_Ammo_F","emptyBox"]];
+boxSpawnSign addAction ["<t color='#00FF00'>Weapon Box</t>", "_this spawn tf47_fnc_spawnThing", ["Box_NATO_Wps_F","weaponBox"]];
+boxSpawnSign addAction ["<t color='#00FF00'>AntiTank Box</t>", "_this spawn tf47_fnc_spawnThing", ["Box_NATO_WpsLaunch_F","ATBox"]];
+boxSpawnSign addAction ["<t color='#00FF00'>AntiAir Box</t>", "_this spawn tf47_fnc_spawnThing", ["Box_NATO_WpsLaunch_F","AABox"]];
+boxSpawnSign addAction ["<t color='#00FF00'>Ammo Box</t>", "_this spawn tf47_fnc_spawnThing", ["Box_NATO_Ammo_F","AmmoBox"]];
+boxSpawnSign addAction ["<t color='#00FF00'>Medical Box</t>", "_this spawn tf47_fnc_spawnThing", ["ACE_medicalSupplyCrate_advanced",""]];
+boxSpawnSign addAction ["<t color='#00FF00'>Explosive Box</t>", "_this spawn tf47_fnc_spawnThing", ["Box_NATO_AmmoOrd_F",""]];
+
 diag_log [diag_frameno, diag_ticktime, time, "MPF initPlayerLocal.sqf processed"];

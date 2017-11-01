@@ -467,4 +467,23 @@ if (isServer) then {
                 sleep 300;
                 ["tf47_showTickets", WEST] call cba_fnc_globalEvent;
         };
+
+        addMissionEventHandler ["HandleDisconnect",{
+          params ["_unit", "_id", "_uid","_name"];
+          if (_unit getVariable ["ace_isunconscious", false] ) then {
+            private ["_infantryTickets"];
+
+            _slotname = format["%1", _unit];
+            _playername = name _unit;
+            _playerSide = side _unit;
+
+            _comment = format ["Player: %1 (%2, %3)", _playername, _unit, _playerSide];
+            _ticketCost = [_infantryTickets, _slotname] call CBA_fnc_hashGet;
+
+            _diagcomment = format["%1, costs %2 tickets", _comment, _ticketCost];
+            ["tf47_diaglog", _diagcomment] call CBA_fnc_globalEvent;
+
+            ["tf47_changetickets", [WEST, 5, _ticketCost, "", _uid, _playername]] call CBA_fnc_globalEvent;
+            };
+        }];
 };
